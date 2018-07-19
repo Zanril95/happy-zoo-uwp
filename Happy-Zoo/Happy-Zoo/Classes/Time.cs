@@ -18,7 +18,8 @@ namespace Happy_Zoo
         private bool paused = false;
 
         //initiate the day, month and thread
-        public Time() {
+        public Time()
+        {
             day = 1;
             month = 1;
             year = 2018;
@@ -30,20 +31,31 @@ namespace Happy_Zoo
         {
             ThreadPoolTimer PeriodicTimer = ThreadPoolTimer.CreatePeriodicTimer((source) =>
             {
+
+
+                Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
+                () =>
+                {
+                // Your UI update code goes here!
                 increaseDay();
+                }
+                );
+
+                //increaseDay();
                 //
                 // Update the UI thread by using the UI core dispatcher.
                 //
 
 
             }, period);
+            
         }
 
 
         //this method will pauze if the tread is running and resume if it's pauzed
         public void pauzeStartTime()
         {
-            if(paused == false)
+            if (paused == false)
             {
                 PeriodicTimer.Cancel();
                 paused = true;
@@ -51,23 +63,26 @@ namespace Happy_Zoo
             else
             {
                 startThread();
-                 paused = false;
+                paused = false;
             }
-            
+
         }
 
         //increase the day by one
-        private void increaseDay() {
+        private void increaseDay()
+        {
             bool leapYear = false;
-            if(year%4 == 0)
+            if (year % 4 == 0)
             {
                 leapYear = true;
             }
-            if(new[] { 1, 3, 5, 7, 8, 10, 12 }.Contains(month) && day == 31 || new[] { 4, 6, 9, 11 }.Contains(month) && day == 30 || month == 2 && day == 28 && leapYear == false || month == 2 && day == 29 && leapYear == true) {
+            if (new[] { 1, 3, 5, 7, 8, 10, 12 }.Contains(month) && day == 31 || new[] { 4, 6, 9, 11 }.Contains(month) && day == 30 || month == 2 && day == 28 && leapYear == false || month == 2 && day == 29 && leapYear == true)
+            {
                 increaseMonth();
                 day = 1;
             }
-            else{
+            else
+            {
                 day++;
             }
         }
@@ -75,7 +90,7 @@ namespace Happy_Zoo
         //increase the month by one
         private void increaseMonth()
         {
-            if(month >= 12)
+            if (month >= 12)
             {
                 increaseYear();
                 month = 1;

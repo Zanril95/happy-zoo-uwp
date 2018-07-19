@@ -2,6 +2,7 @@
 using Mcg.System;
 using System;
 using System.Collections.Generic;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -856,42 +857,6 @@ namespace __Interop
 		internal static int StdCall__20(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					sbyte arg0)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static int StdCall__21(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					double arg0)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static int StdCall__22(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					global::Windows.Foundation.Point arg0)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static int StdCall__23(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					global::Windows.UI.Xaml.Input.ManipulationModes arg0)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static int StdCall__24(
-					global::System.IntPtr pfn, 
-					void* pthis, 
 					global::Windows.Foundation.Point arg0, 
 					void* arg1, 
 					void* arg2)
@@ -900,11 +865,47 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__25(
+		internal static int StdCall__21(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::Windows.Foundation.Rect arg0, 
 					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__22(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					sbyte arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__23(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					double arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__24(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Foundation.Point arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__25(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Xaml.Input.ManipulationModes arg0)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
@@ -1047,7 +1048,65 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static TResult HasThisCall__40<TResult>(
+		internal static int StdCall__40(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Xaml.GridLength arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__41(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Xaml.CornerRadius arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__42(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Xaml.Duration arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__43(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__44(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1, 
+					sbyte arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__45(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Xaml.Media.Animation.KeyTime arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static TResult HasThisCall__46<TResult>(
 					object __this, 
 					global::System.IntPtr pfn, 
 					string arg0)
@@ -1056,7 +1115,7 @@ namespace __Interop
 			return default(TResult);
 		}
 
-		internal static int StdCall__41(
+		internal static int StdCall__47(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1067,7 +1126,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static TResult HasThisCall__42<TResult>(
+		internal static TResult HasThisCall__48<TResult>(
 					object __this, 
 					global::System.IntPtr pfn)
 		{
@@ -1075,7 +1134,7 @@ namespace __Interop
 			return default(TResult);
 		}
 
-		internal static bool HasThisCall__43(
+		internal static bool HasThisCall__49(
 					object __this, 
 					global::System.IntPtr pfn)
 		{
@@ -1083,25 +1142,7 @@ namespace __Interop
 			return default(bool);
 		}
 
-		internal static int StdCall__44(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					global::Windows.UI.Xaml.GridLength arg0)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static int StdCall__45(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					global::Windows.UI.Xaml.CornerRadius arg0)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static int StdCall__46(
+		internal static int StdCall__50(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1112,7 +1153,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__47(
+		internal static int StdCall__51(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					int arg0, 
@@ -1123,7 +1164,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__48(
+		internal static int StdCall__52(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::Windows.Graphics.Display.DisplayOrientations arg0)
@@ -1132,7 +1173,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__49(
+		internal static int StdCall__53(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					ulong arg0)
@@ -1141,7 +1182,42 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__50(
+		internal static int StdCall__54(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					ulong arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static ulong HasThisCall__55(
+					object __this, 
+					global::System.IntPtr pfn)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static void HasThisCall__56(
+					object __this, 
+					global::System.IntPtr pfn, 
+					ulong arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static TResult HasThisCall__57<TResult>(
+					object __this, 
+					global::System.IntPtr pfn, 
+					ulong arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(TResult);
+		}
+
+		internal static int StdCall__58(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1153,7 +1229,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__51(
+		internal static int StdCall__59(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					uint arg0)
@@ -1162,7 +1238,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static uint HasThisCall__52(
+		internal static uint HasThisCall__60(
 					object __this, 
 					global::System.IntPtr pfn)
 		{
@@ -1170,7 +1246,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static void HasThisCall__53(
+		internal static void HasThisCall__61(
 					object __this, 
 					global::System.IntPtr pfn, 
 					uint arg0)
@@ -1178,7 +1254,7 @@ namespace __Interop
 			// This method is implemented elsewhere in the toolchain
 		}
 
-		internal static int StdCall__54(
+		internal static int StdCall__62(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1188,7 +1264,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static void HasThisCall__55<TArg0>(
+		internal static void HasThisCall__63<TArg0>(
 					object __this, 
 					global::System.IntPtr pfn, 
 					TArg0 arg0, 
@@ -1197,7 +1273,7 @@ namespace __Interop
 			// This method is implemented elsewhere in the toolchain
 		}
 
-		internal static int StdCall__56(
+		internal static int StdCall__64(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1207,7 +1283,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static void HasThisCall__57<TArg0>(
+		internal static void HasThisCall__65<TArg0>(
 					object __this, 
 					global::System.IntPtr pfn, 
 					TArg0 arg0, 
@@ -1216,7 +1292,7 @@ namespace __Interop
 			// This method is implemented elsewhere in the toolchain
 		}
 
-		internal static int StdCall__58(
+		internal static int StdCall__66(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::System.Runtime.InteropServices.HSTRING arg0, 
@@ -1227,7 +1303,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__59(
+		internal static int StdCall__67(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					int arg0, 
@@ -1239,7 +1315,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__60(
+		internal static int StdCall__68(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					uint arg0, 
@@ -1249,10 +1325,10 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__61(
+		internal static int StdCall__69(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType arg0, 
+					float arg0, 
 					void* arg1, 
 					void* arg2)
 		{
@@ -1260,26 +1336,26 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__62(
+		internal static int StdCall__70(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					uint arg0, 
-					global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType arg1)
+					float arg1)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
 		}
 
-		internal static int StdCall__63(
+		internal static int StdCall__71(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType arg0)
+					float arg0)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
 		}
 
-		internal static int StdCall__64(
+		internal static int StdCall__72(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					uint arg0, 
@@ -1291,7 +1367,37 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__65(
+		internal static int StdCall__73(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__74(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__75(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__76(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::System.Runtime.InteropServices.HSTRING arg0, 
@@ -1302,7 +1408,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__66(
+		internal static int StdCall__77(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::System.Type__Impl.UnsafeType arg0, 
@@ -1313,7 +1419,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__67(
+		internal static int StdCall__78(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::System.TimeSpan arg0)
@@ -1322,7 +1428,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__68(
+		internal static int StdCall__79(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::System.Runtime.InteropServices.HSTRING arg0, 
@@ -1333,7 +1439,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__69(
+		internal static int StdCall__80(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::System.Runtime.InteropServices.HSTRING arg0, 
@@ -1345,7 +1451,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__70(
+		internal static int StdCall__81(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::System.Guid arg0, 
@@ -1356,7 +1462,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__71(
+		internal static int StdCall__82(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					int arg0, 
@@ -1372,7 +1478,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__72(
+		internal static int StdCall__83(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1384,7 +1490,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__73(
+		internal static int StdCall__84(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					int arg0, 
@@ -1398,7 +1504,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__74(
+		internal static int StdCall__85(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					int arg0, 
@@ -1411,7 +1517,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__75(
+		internal static int StdCall__86(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					int arg0, 
@@ -1422,7 +1528,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__76(
+		internal static int StdCall__87(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::Windows.Foundation.Size arg0)
@@ -1431,7 +1537,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__77(
+		internal static int StdCall__88(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::Windows.Gaming.Input.GamepadVibration arg0)
@@ -1440,19 +1546,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__78(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					void* arg0, 
-					global::System.Runtime.InteropServices.HSTRING arg1, 
-					sbyte arg2, 
-					void* arg3)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static int StdCall__79(
+		internal static int StdCall__89(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1463,7 +1557,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__80(
+		internal static int StdCall__90(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1477,7 +1571,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__81(
+		internal static int StdCall__91(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::System.IntPtr arg0, 
@@ -1491,7 +1585,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__82(
+		internal static int StdCall__92(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::System.IntPtr arg0)
@@ -1500,7 +1594,64 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__83(
+		internal static global::SharpDX.Result__SharpDX StdCall__93(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					void* arg1, 
+					global::System.IntPtr arg2, 
+					void* arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::SharpDX.Result__SharpDX);
+		}
+
+		internal static global::SharpDX.Result__SharpDX StdCall__94(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::SharpDX.Result__SharpDX);
+		}
+
+		internal static global::SharpDX.Result__SharpDX StdCall__95(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::SharpDX.Result__SharpDX);
+		}
+
+		internal static global::SharpDX.Result__SharpDX StdCall__96(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					int arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::SharpDX.Result__SharpDX);
+		}
+
+		internal static global::SharpDX.Result__SharpDX StdCall__97(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					uint arg1, 
+					void* arg2, 
+					global::System.IntPtr arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::SharpDX.Result__SharpDX);
+		}
+
+		internal static int StdCall__98(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					int arg0, 
@@ -1512,7 +1663,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__84(
+		internal static int StdCall__99(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1527,7 +1678,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__85(
+		internal static int StdCall__100(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					int arg0, 
@@ -1540,7 +1691,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__86(
+		internal static int StdCall__101(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					int arg0, 
@@ -1553,7 +1704,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__87(
+		internal static int StdCall__102(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					int arg0, 
@@ -1564,7 +1715,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static void StdCall__88(
+		internal static void StdCall__103(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::System.IntPtr arg0)
@@ -1572,7 +1723,7 @@ namespace __Interop
 			// This method is implemented elsewhere in the toolchain
 		}
 
-		internal static int StdCall__89(
+		internal static int StdCall__104(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1586,7 +1737,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__90(
+		internal static int StdCall__105(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1598,7 +1749,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__91(
+		internal static int StdCall__106(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1606,6 +1757,1574 @@ namespace __Interop
 					void* arg2, 
 					void* arg3, 
 					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__107(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					void* arg1, 
+					global::System.IntPtr arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__108(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Direct2D1.PrimitiveBlend__SharpDX_Direct2D1 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__109(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Direct2D1.PrimitiveBlend__SharpDX_Direct2D1 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__110(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__111(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__112(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Direct2D1.AntialiasMode__SharpDX_Direct2D1 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__113(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Direct2D1.AntialiasMode__SharpDX_Direct2D1 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__114(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					long arg1, 
+					long arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__115(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					long arg1, 
+					long arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__116(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Direct2D1.TextAntialiasMode__SharpDX_Direct2D1 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__117(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Direct2D1.TextAntialiasMode__SharpDX_Direct2D1 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__118(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__119(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__120(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Direct2D1.UnitMode__SharpDX_Direct2D1 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__121(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Direct2D1.UnitMode__SharpDX_Direct2D1 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__122(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Mathematics.Interop.RawVector2__SharpDX arg1, 
+					global::System.IntPtr arg2, 
+					global::System.IntPtr arg3, 
+					global::System.IntPtr arg4, 
+					global::SharpDX.Direct2D1.MeasuringMode__SharpDX_Direct2D1 arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__123(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Mathematics.Interop.RawVector2__SharpDX arg1, 
+					global::System.IntPtr arg2, 
+					global::System.IntPtr arg3, 
+					global::System.IntPtr arg4, 
+					global::SharpDX.Direct2D1.MeasuringMode__SharpDX_Direct2D1 arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__124(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Mathematics.Interop.RawVector2__SharpDX arg1, 
+					global::SharpDX.Mathematics.Interop.RawVector2__SharpDX arg2, 
+					global::System.IntPtr arg3, 
+					float arg4, 
+					global::System.IntPtr arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__125(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Mathematics.Interop.RawVector2__SharpDX arg1, 
+					global::SharpDX.Mathematics.Interop.RawVector2__SharpDX arg2, 
+					global::System.IntPtr arg3, 
+					float arg4, 
+					global::System.IntPtr arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__126(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					float arg3, 
+					global::System.IntPtr arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__127(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					float arg3, 
+					global::System.IntPtr arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__128(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					float arg3, 
+					global::SharpDX.Direct2D1.InterpolationMode__SharpDX_Direct2D1 arg4, 
+					global::System.IntPtr arg5, 
+					global::System.IntPtr arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__129(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					float arg3, 
+					global::SharpDX.Direct2D1.InterpolationMode__SharpDX_Direct2D1 arg4, 
+					global::System.IntPtr arg5, 
+					global::System.IntPtr arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__130(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					global::System.IntPtr arg3, 
+					global::SharpDX.Direct2D1.InterpolationMode__SharpDX_Direct2D1 arg4, 
+					global::SharpDX.Direct2D1.CompositeMode__SharpDX_Direct2D1 arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__131(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					global::System.IntPtr arg3, 
+					global::SharpDX.Direct2D1.InterpolationMode__SharpDX_Direct2D1 arg4, 
+					global::SharpDX.Direct2D1.CompositeMode__SharpDX_Direct2D1 arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__132(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__133(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__134(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					global::System.IntPtr arg3, 
+					global::System.IntPtr arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__135(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					global::System.IntPtr arg3, 
+					global::System.IntPtr arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__136(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					global::System.IntPtr arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__137(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					global::System.IntPtr arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__138(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::SharpDX.Direct2D1.AntialiasMode__SharpDX_Direct2D1 arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__139(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::SharpDX.Direct2D1.AntialiasMode__SharpDX_Direct2D1 arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__140(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					int arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__141(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					int arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__142(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					int arg3, 
+					global::System.IntPtr arg4, 
+					global::System.IntPtr arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__143(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					int arg3, 
+					global::System.IntPtr arg4, 
+					global::System.IntPtr arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__144(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					global::System.IntPtr arg2, 
+					global::System.IntPtr arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__145(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					global::System.IntPtr arg2, 
+					global::System.IntPtr arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__146(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					void* arg2, 
+					void* arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__147(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					out int arg2, 
+					out int arg3, 
+					out int arg4)
+		{
+			arg2 = 0;
+			arg3 = 0;
+			arg4 = 0;
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__148(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__149(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					out global::System.IntPtr arg2, 
+					out int arg3)
+		{
+			arg2 = default(global::System.IntPtr);
+			arg3 = 0;
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static global::SharpDX.DirectWrite.ReadingDirection__SharpDX_Direct2D1 StdCall__150(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::SharpDX.DirectWrite.ReadingDirection__SharpDX_Direct2D1);
+		}
+
+		internal static global::SharpDX.DirectWrite.ReadingDirection__SharpDX_Direct2D1 Call__151(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::SharpDX.DirectWrite.ReadingDirection__SharpDX_Direct2D1);
+		}
+
+		internal static int Call__152(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					out int arg2, 
+					out global::System.IntPtr arg3)
+		{
+			arg2 = 0;
+			arg3 = default(global::System.IntPtr);
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__153(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					void* arg2, 
+					void* arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__154(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					out int arg2, 
+					out global::SharpDX.DirectWrite.VerticalGlyphOrientation__SharpDX_Direct2D1 arg3, 
+					out byte arg4)
+		{
+			arg2 = 0;
+			arg3 = default(global::SharpDX.DirectWrite.VerticalGlyphOrientation__SharpDX_Direct2D1);
+			arg4 = 0;
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__155(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					int arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__156(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					int arg2, 
+					global::SharpDX.DirectWrite.ScriptAnalysis__SharpDX_Direct2D1* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__157(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					int arg2, 
+					global::System.IntPtr arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__158(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					int arg2, 
+					global::System.IntPtr arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__159(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					int arg2, 
+					byte arg3, 
+					byte arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__160(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					int arg2, 
+					byte arg3, 
+					byte arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__161(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					int arg2, 
+					global::SharpDX.DirectWrite.GlyphOrientationAngle__SharpDX_Direct2D1 arg3, 
+					byte arg4, 
+					global::SharpDX.Mathematics.Interop.RawBool__SharpDX arg5, 
+					global::SharpDX.Mathematics.Interop.RawBool__SharpDX arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__162(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					int arg2, 
+					global::SharpDX.DirectWrite.GlyphOrientationAngle__SharpDX_Direct2D1 arg3, 
+					byte arg4, 
+					global::SharpDX.Mathematics.Interop.RawBool__SharpDX arg5, 
+					global::SharpDX.Mathematics.Interop.RawBool__SharpDX arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__163(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					global::SharpDX.Mathematics.Interop.RawPoint__SharpDX arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__164(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					global::SharpDX.Mathematics.Interop.RawPoint__SharpDX arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__165(
+					global::System.IntPtr pfn, 
+					out global::System.IntPtr arg0)
+		{
+			arg0 = default(global::System.IntPtr);
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__166(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Direct2D1.ChangeType__SharpDX_Direct2D1 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__167(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Direct2D1.ChangeType__SharpDX_Direct2D1 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__168(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					int arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__169(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					int arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__170(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					int arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__171(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					int arg2, 
+					out int arg3)
+		{
+			arg3 = 0;
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__172(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					int arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__173(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					int arg3, 
+					out global::System.IntPtr arg4)
+		{
+			arg4 = default(global::System.IntPtr);
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__174(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__175(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					out int arg1)
+		{
+			arg1 = 0;
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__176(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					out global::System.IntPtr arg1)
+		{
+			arg1 = default(global::System.IntPtr);
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__177(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					int arg2, 
+					out global::System.IntPtr arg3)
+		{
+			arg3 = default(global::System.IntPtr);
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__178(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					void* arg1, 
+					long arg2, 
+					long arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__179(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					out global::System.IntPtr arg1, 
+					long arg2, 
+					long arg3, 
+					out global::System.IntPtr arg4)
+		{
+			arg1 = default(global::System.IntPtr);
+			arg4 = default(global::System.IntPtr);
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static void StdCall__180(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static void Call__181(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static int Call__182(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					out long arg1)
+		{
+			arg1 = 0;
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__183(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					float arg3, 
+					float arg4, 
+					int arg5, 
+					int arg6, 
+					global::System.IntPtr arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__184(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					float arg3, 
+					float arg4, 
+					int arg5, 
+					int arg6, 
+					global::System.IntPtr arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__185(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.DirectWrite.InlineObjectMetrics__SharpDX_Direct2D1* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__186(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.DirectWrite.OverhangMetrics__SharpDX_Direct2D1* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__187(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__188(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					out global::SharpDX.DirectWrite.BreakCondition__SharpDX_Direct2D1 arg1, 
+					out global::SharpDX.DirectWrite.BreakCondition__SharpDX_Direct2D1 arg2)
+		{
+			arg1 = default(global::SharpDX.DirectWrite.BreakCondition__SharpDX_Direct2D1);
+			arg2 = default(global::SharpDX.DirectWrite.BreakCondition__SharpDX_Direct2D1);
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__189(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__190(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					out int arg2)
+		{
+			arg2 = 0;
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__191(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					out float arg2)
+		{
+			arg2 = 0;
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__192(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					float arg2, 
+					float arg3, 
+					global::SharpDX.Direct2D1.MeasuringMode__SharpDX_Direct2D1 arg4, 
+					global::System.IntPtr arg5, 
+					global::System.IntPtr arg6, 
+					global::System.IntPtr arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__193(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					float arg2, 
+					float arg3, 
+					global::SharpDX.Direct2D1.MeasuringMode__SharpDX_Direct2D1 arg4, 
+					global::System.IntPtr arg5, 
+					global::System.IntPtr arg6, 
+					global::System.IntPtr arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__194(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					float arg2, 
+					float arg3, 
+					void* arg4, 
+					global::System.IntPtr arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__195(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					float arg2, 
+					float arg3, 
+					global::SharpDX.DirectWrite.Underline___Native__SharpDX_Direct2D1* arg4, 
+					global::System.IntPtr arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__196(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					float arg2, 
+					float arg3, 
+					global::SharpDX.DirectWrite.Strikethrough___Native__SharpDX_Direct2D1* arg4, 
+					global::System.IntPtr arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__197(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					float arg2, 
+					float arg3, 
+					global::System.IntPtr arg4, 
+					int arg5, 
+					int arg6, 
+					global::System.IntPtr arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__198(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					float arg2, 
+					float arg3, 
+					global::System.IntPtr arg4, 
+					int arg5, 
+					int arg6, 
+					global::System.IntPtr arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static void StdCall__199(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Direct2D1.FillMode__SharpDX_Direct2D1 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static void Call__200(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Direct2D1.FillMode__SharpDX_Direct2D1 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static void StdCall__201(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Direct2D1.PathSegment__SharpDX_Direct2D1 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static void Call__202(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Direct2D1.PathSegment__SharpDX_Direct2D1 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static void StdCall__203(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Mathematics.Interop.RawVector2__SharpDX arg1, 
+					global::SharpDX.Direct2D1.FigureBegin__SharpDX_Direct2D1 arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static void Call__204(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Mathematics.Interop.RawVector2__SharpDX arg1, 
+					global::SharpDX.Direct2D1.FigureBegin__SharpDX_Direct2D1 arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static void StdCall__205(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					int arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static void Call__206(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					int arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static void StdCall__207(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Direct2D1.FigureEnd__SharpDX_Direct2D1 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static void Call__208(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Direct2D1.FigureEnd__SharpDX_Direct2D1 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static void StdCall__209(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Mathematics.Interop.RawVector2__SharpDX arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static void Call__210(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Mathematics.Interop.RawVector2__SharpDX arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static int Call__211(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					out global::System.IntPtr arg2)
+		{
+			arg2 = default(global::System.IntPtr);
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__212(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int* arg1, 
+					global::System.IntPtr* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__213(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					long arg1, 
+					global::System.IO.SeekOrigin__System_IO arg2, 
+					global::System.IntPtr arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__214(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					long arg1, 
+					global::System.IO.SeekOrigin__System_IO arg2, 
+					global::System.IntPtr arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static global::SharpDX.Result__SharpDX StdCall__215(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					long arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::SharpDX.Result__SharpDX);
+		}
+
+		internal static global::SharpDX.Result__SharpDX Call__216(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					long arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::SharpDX.Result__SharpDX);
+		}
+
+		internal static int StdCall__217(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					long arg2, 
+					void* arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__218(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					long arg2, 
+					out long arg3, 
+					out long arg4)
+		{
+			arg3 = 0;
+			arg4 = 0;
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static global::SharpDX.Result__SharpDX StdCall__219(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Win32.CommitFlags__SharpDX arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::SharpDX.Result__SharpDX);
+		}
+
+		internal static global::SharpDX.Result__SharpDX Call__220(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::SharpDX.Win32.CommitFlags__SharpDX arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::SharpDX.Result__SharpDX);
+		}
+
+		internal static global::SharpDX.Result__SharpDX StdCall__221(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::SharpDX.Result__SharpDX);
+		}
+
+		internal static global::SharpDX.Result__SharpDX Call__222(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::SharpDX.Result__SharpDX);
+		}
+
+		internal static global::SharpDX.Result__SharpDX StdCall__223(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					long arg1, 
+					long arg2, 
+					global::SharpDX.Win32.LockType__SharpDX arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::SharpDX.Result__SharpDX);
+		}
+
+		internal static global::SharpDX.Result__SharpDX Call__224(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					long arg1, 
+					long arg2, 
+					global::SharpDX.Win32.LockType__SharpDX arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::SharpDX.Result__SharpDX);
+		}
+
+		internal static global::SharpDX.Result__SharpDX StdCall__225(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					void* arg1, 
+					global::SharpDX.Win32.StorageStatisticsFlags__SharpDX arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::SharpDX.Result__SharpDX);
+		}
+
+		internal static global::SharpDX.Result__SharpDX Call__226(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					ref global::SharpDX.Win32.StorageStatistics___Native__SharpDX arg1, 
+					global::SharpDX.Win32.StorageStatisticsFlags__SharpDX arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::SharpDX.Result__SharpDX);
+		}
+
+		internal static global::SharpDX.Result__SharpDX StdCall__227(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::SharpDX.Result__SharpDX);
+		}
+
+		internal static global::SharpDX.Result__SharpDX Call__228(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					out global::System.IntPtr arg1)
+		{
+			arg1 = default(global::System.IntPtr);
+			// This method is implemented elsewhere in the toolchain
+			return default(global::SharpDX.Result__SharpDX);
+		}
+
+		internal static int Call__229(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					out global::SharpDX.MediaFoundation.AsyncCallbackFlags__SharpDX_MediaFoundation arg1, 
+					out global::SharpDX.MediaFoundation.WorkQueueId__SharpDX_MediaFoundation arg2)
+		{
+			arg1 = default(global::SharpDX.MediaFoundation.AsyncCallbackFlags__SharpDX_MediaFoundation);
+			arg2 = default(global::SharpDX.MediaFoundation.WorkQueueId__SharpDX_MediaFoundation);
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__230(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					long arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__231(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					long arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__232(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					long arg1, 
+					float arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__233(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					long arg1, 
+					float arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__234(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					void* arg1, 
+					int arg2, 
+					long arg3, 
+					long arg4, 
+					global::System.IntPtr arg5, 
+					int arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__235(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.Guid* arg1, 
+					int arg2, 
+					long arg3, 
+					long arg4, 
+					global::System.IntPtr arg5, 
+					int arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__236(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					void* arg1, 
+					int arg2, 
+					long arg3, 
+					long arg4, 
+					global::System.IntPtr arg5, 
+					int arg6, 
+					global::System.IntPtr arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__237(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.Guid* arg1, 
+					int arg2, 
+					long arg3, 
+					long arg4, 
+					global::System.IntPtr arg5, 
+					int arg6, 
+					global::System.IntPtr arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__238(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					global::System.IntPtr arg2, 
+					int arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__239(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					global::System.IntPtr arg2, 
+					int arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static void StdCall__240(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static void Call__241(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static void StdCall__242(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static void Call__243(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static int StdCall__244(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__245(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					out global::System.IntPtr arg3)
+		{
+			arg3 = default(global::System.IntPtr);
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__246(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					void* arg2, 
+					int arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__247(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					global::SharpDX.XAPO.LockParameters___Native__SharpDX_XAudio2* arg2, 
+					int arg3, 
+					global::SharpDX.XAPO.LockParameters___Native__SharpDX_XAudio2* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static void StdCall__248(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					void* arg2, 
+					int arg3, 
+					void* arg4, 
+					int arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static void Call__249(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					global::SharpDX.XAPO.BufferParameters__SharpDX_XAudio2* arg2, 
+					int arg3, 
+					global::SharpDX.XAPO.BufferParameters__SharpDX_XAudio2* arg4, 
+					int arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static int StdCall__250(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int Call__251(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
@@ -1703,46 +3422,175 @@ namespace __Interop
 
 		public delegate int AddrOfTarget18(
 					global::System.IntPtr a0, 
-					uint* a1);
+					ulong* a1);
 
 		public delegate int AddrOfTarget19(
 					global::System.IntPtr a0, 
-					uint a1);
+					ulong a1);
 
 		public delegate int AddrOfTarget20(
 					global::System.IntPtr a0, 
-					void* a1, 
-					uint a2);
+					ulong a1, 
+					void** a2);
 
 		public delegate int AddrOfTarget21(
 					global::System.IntPtr a0, 
 					void* a1, 
-					global::Windows.Foundation.AsyncStatus a2);
+					uint a2, 
+					global::Windows.Storage.Streams.InputStreamOptions a3, 
+					void** a4);
 
 		public delegate int AddrOfTarget22(
 					global::System.IntPtr a0, 
-					global::Windows.UI.Xaml.Controls.Orientation* a1);
+					uint* a1);
 
 		public delegate int AddrOfTarget23(
+					global::System.IntPtr a0, 
+					uint a1);
+
+		public delegate int AddrOfTarget24(
+					global::System.IntPtr a0, 
+					void* a1, 
+					uint a2);
+
+		public delegate int AddrOfTarget25(
+					global::System.IntPtr a0, 
+					void* a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate int AddrOfTarget26(
+					global::System.IntPtr a0, 
+					float* a1);
+
+		public delegate int AddrOfTarget27(
+					global::System.IntPtr a0, 
+					uint a1, 
+					float* a2, 
+					uint* a3);
+
+		public delegate int AddrOfTarget28(
+					global::System.IntPtr a0, 
+					uint a1, 
+					float* a2);
+
+		public delegate int AddrOfTarget29(
+					global::System.IntPtr a0, 
+					float a1, 
+					uint* a2, 
+					sbyte* a3);
+
+		public delegate int AddrOfTarget30(
+					global::System.IntPtr a0, 
+					uint a1, 
+					float a2);
+
+		public delegate int AddrOfTarget31(
+					global::System.IntPtr a0, 
+					float a1);
+
+		public delegate int AddrOfTarget32(
+					global::System.IntPtr a0, 
+					uint a1, 
+					uint a2, 
+					float* a3, 
+					uint* a4);
+
+		public delegate int AddrOfTarget33(
+					global::System.IntPtr a0, 
+					double* a1);
+
+		public delegate int AddrOfTarget34(
+					global::System.IntPtr a0, 
+					uint a1, 
+					double* a2, 
+					uint* a3);
+
+		public delegate int AddrOfTarget35(
+					global::System.IntPtr a0, 
+					uint a1, 
+					double* a2);
+
+		public delegate int AddrOfTarget36(
+					global::System.IntPtr a0, 
+					double a1, 
+					uint* a2, 
+					sbyte* a3);
+
+		public delegate int AddrOfTarget37(
+					global::System.IntPtr a0, 
+					uint a1, 
+					double a2);
+
+		public delegate int AddrOfTarget38(
+					global::System.IntPtr a0, 
+					double a1);
+
+		public delegate int AddrOfTarget39(
+					global::System.IntPtr a0, 
+					uint a1, 
+					uint a2, 
+					double* a3, 
+					uint* a4);
+
+		public delegate int AddrOfTarget40(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.Controls.Orientation* a1);
+
+		public delegate int AddrOfTarget41(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					float** a2);
+
+		public delegate int AddrOfTarget42(
 					global::System.IntPtr a0, 
 					global::System.Runtime.InteropServices.HSTRING a1, 
 					sbyte* a2);
 
-		public delegate int AddrOfTarget24(
+		public delegate int AddrOfTarget43(
 					global::System.IntPtr a0, 
 					global::System.Runtime.InteropServices.HSTRING a1, 
 					void* a2, 
 					sbyte* a3);
 
-		public delegate int AddrOfTarget25(
+		public delegate int AddrOfTarget44(
 					global::System.IntPtr a0, 
 					global::System.Runtime.InteropServices.HSTRING a1);
 
-		public delegate int AddrOfTarget26(
+		public delegate int AddrOfTarget45(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					sbyte** a2);
+
+		public delegate int AddrOfTarget46(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					ushort** a2);
+
+		public delegate int AddrOfTarget47(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					short** a2);
+
+		public delegate int AddrOfTarget48(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					uint** a2);
+
+		public delegate int AddrOfTarget49(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					long** a2);
+
+		public delegate int AddrOfTarget50(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					double** a2);
+
+		public delegate int AddrOfTarget51(
 					global::System.IntPtr a0, 
 					global::System.IntPtr* a1);
 
-		public delegate int AddrOfTarget27(
+		public delegate int AddrOfTarget52(
 					global::System.IntPtr a0, 
 					global::System.Guid* a1, 
 					global::System.IntPtr a2, 
@@ -1751,7 +3599,7 @@ namespace __Interop
 					uint a5, 
 					global::System.Guid* a6);
 
-		public delegate int AddrOfTarget28(
+		public delegate int AddrOfTarget53(
 					global::System.IntPtr a0, 
 					global::System.Guid* a1, 
 					global::System.IntPtr a2, 
@@ -1760,7 +3608,7 @@ namespace __Interop
 					uint a5, 
 					uint* a6);
 
-		public delegate int AddrOfTarget29(
+		public delegate int AddrOfTarget54(
 					global::System.IntPtr a0, 
 					global::System.IntPtr a1, 
 					global::System.Guid* a2, 
@@ -1769,319 +3617,195 @@ namespace __Interop
 					global::System.IntPtr a5, 
 					uint a6);
 
-		public delegate int AddrOfTarget30(
+		public delegate int AddrOfTarget55(
 					global::System.IntPtr a0, 
 					global::System.IntPtr a1, 
 					global::System.Guid* a2, 
 					global::System.IntPtr* a3);
 
-		public delegate void AddrOfTarget31(
-					global::System.__ComObject a0, 
-					object a1, 
-					object a2);
-
-		public delegate void AddrOfTarget32(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.ApplicationInitializationCallbackParams a1);
-
-		public delegate void AddrOfTarget33(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.UnhandledExceptionEventArgs a2);
-
-		public delegate void AddrOfTarget34(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.ApplicationModel.SuspendingEventArgs a2);
-
-		public delegate void AddrOfTarget35(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.ApplicationModel.LeavingBackgroundEventArgs a2);
-
-		public delegate void AddrOfTarget36(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.ApplicationModel.EnteredBackgroundEventArgs a2);
-
-		public delegate void AddrOfTarget37(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.DependencyObject a1, 
-					global::Windows.UI.Xaml.DependencyPropertyChangedEventArgs a2);
-
-		public delegate void AddrOfTarget38(global::System.__ComObject a0);
-
-		public delegate void AddrOfTarget39(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.Input.KeyRoutedEventArgs a2);
-
-		public delegate void AddrOfTarget40(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.RoutedEventArgs a2);
-
-		public delegate void AddrOfTarget41(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.DragEventArgs a2);
-
-		public delegate void AddrOfTarget42(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.Input.PointerRoutedEventArgs a2);
-
-		public delegate void AddrOfTarget43(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.Input.TappedRoutedEventArgs a2);
-
-		public delegate void AddrOfTarget44(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.Input.DoubleTappedRoutedEventArgs a2);
-
-		public delegate void AddrOfTarget45(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.Input.HoldingRoutedEventArgs a2);
-
-		public delegate void AddrOfTarget46(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.Input.RightTappedRoutedEventArgs a2);
-
-		public delegate void AddrOfTarget47(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.Input.ManipulationStartingRoutedEventArgs a2);
-
-		public delegate void AddrOfTarget48(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs a2);
-
-		public delegate void AddrOfTarget49(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.Input.ManipulationStartedRoutedEventArgs a2);
-
-		public delegate void AddrOfTarget50(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs a2);
-
-		public delegate void AddrOfTarget51(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.Input.ManipulationCompletedRoutedEventArgs a2);
-
-		public delegate void AddrOfTarget52(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.UIElement a1, 
-					global::Windows.UI.Xaml.DragStartingEventArgs a2);
-
-		public delegate void AddrOfTarget53(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.UIElement a1, 
-					global::Windows.UI.Xaml.DropCompletedEventArgs a2);
-
-		public delegate void AddrOfTarget54(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.SizeChangedEventArgs a2);
-
-		public delegate void AddrOfTarget55(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.FrameworkElement a1, 
-					global::Windows.UI.Xaml.DataContextChangedEventArgs a2);
-
 		public delegate void AddrOfTarget56(
 					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.FrameworkElement a1, 
+					object a1, 
 					object a2);
 
 		public delegate void AddrOfTarget57(
 					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.ApplicationInitializationCallbackParams a1);
+
+		public delegate void AddrOfTarget58(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.UnhandledExceptionEventArgs a2);
+
+		public delegate void AddrOfTarget59(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.ApplicationModel.SuspendingEventArgs a2);
+
+		public delegate void AddrOfTarget60(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.ApplicationModel.LeavingBackgroundEventArgs a2);
+
+		public delegate void AddrOfTarget61(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.ApplicationModel.EnteredBackgroundEventArgs a2);
+
+		public delegate void AddrOfTarget62(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.DependencyObject a1, 
+					global::Windows.UI.Xaml.DependencyPropertyChangedEventArgs a2);
+
+		public delegate void AddrOfTarget63(global::System.__ComObject a0);
+
+		public delegate void AddrOfTarget64(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Input.KeyRoutedEventArgs a2);
+
+		public delegate void AddrOfTarget65(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.RoutedEventArgs a2);
+
+		public delegate void AddrOfTarget66(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.DragEventArgs a2);
+
+		public delegate void AddrOfTarget67(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Input.PointerRoutedEventArgs a2);
+
+		public delegate void AddrOfTarget68(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Input.TappedRoutedEventArgs a2);
+
+		public delegate void AddrOfTarget69(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Input.DoubleTappedRoutedEventArgs a2);
+
+		public delegate void AddrOfTarget70(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Input.HoldingRoutedEventArgs a2);
+
+		public delegate void AddrOfTarget71(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Input.RightTappedRoutedEventArgs a2);
+
+		public delegate void AddrOfTarget72(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Input.ManipulationStartingRoutedEventArgs a2);
+
+		public delegate void AddrOfTarget73(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs a2);
+
+		public delegate void AddrOfTarget74(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Input.ManipulationStartedRoutedEventArgs a2);
+
+		public delegate void AddrOfTarget75(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs a2);
+
+		public delegate void AddrOfTarget76(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Input.ManipulationCompletedRoutedEventArgs a2);
+
+		public delegate void AddrOfTarget77(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.UIElement a1, 
+					global::Windows.UI.Xaml.DragStartingEventArgs a2);
+
+		public delegate void AddrOfTarget78(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.UIElement a1, 
+					global::Windows.UI.Xaml.DropCompletedEventArgs a2);
+
+		public delegate void AddrOfTarget79(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.SizeChangedEventArgs a2);
+
+		public delegate void AddrOfTarget80(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.FrameworkElement a1, 
+					global::Windows.UI.Xaml.DataContextChangedEventArgs a2);
+
+		public delegate void AddrOfTarget81(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.FrameworkElement a1, 
+					object a2);
+
+		public delegate void AddrOfTarget82(
+					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.DependencyPropertyChangedEventArgs a2);
 
-		public delegate void AddrOfTarget58(
+		public delegate void AddrOfTarget83(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.Control a1, 
 					global::Windows.UI.Xaml.Controls.FocusEngagedEventArgs a2);
 
-		public delegate void AddrOfTarget59(
+		public delegate void AddrOfTarget84(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.Control a1, 
 					global::Windows.UI.Xaml.Controls.FocusDisengagedEventArgs a2);
 
-		public delegate void AddrOfTarget60(
+		public delegate void AddrOfTarget85(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase a1, 
 					global::Windows.UI.Xaml.Controls.Primitives.FlyoutBaseClosingEventArgs a2);
 
-		public delegate void AddrOfTarget61(
+		public delegate void AddrOfTarget86(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.UIElement a1, 
 					global::Windows.UI.Xaml.Input.ContextRequestedEventArgs a2);
 
-		public delegate void AddrOfTarget62(
+		public delegate void AddrOfTarget87(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.UIElement a1, 
 					global::Windows.UI.Xaml.RoutedEventArgs a2);
 
-		public delegate void AddrOfTarget63(
+		public delegate void AddrOfTarget88(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.UIElement a1, 
 					global::Windows.UI.Xaml.Input.AccessKeyDisplayRequestedEventArgs a2);
 
-		public delegate void AddrOfTarget64(
+		public delegate void AddrOfTarget89(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.UIElement a1, 
 					global::Windows.UI.Xaml.Input.AccessKeyDisplayDismissedEventArgs a2);
 
-		public delegate void AddrOfTarget65(
+		public delegate void AddrOfTarget90(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.UIElement a1, 
 					global::Windows.UI.Xaml.Input.AccessKeyInvokedEventArgs a2);
 
-		public delegate void AddrOfTarget66(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.Controls.SwapChainPanel a1, 
-					object a2);
+		public delegate object AddrOfTarget91<T>(global::System.Collections.Generic.IEnumerable<T> a0);
 
-		public delegate void AddrOfTarget67(
-					global::System.__ComObject a0, 
-					global::Windows.System.Threading.ThreadPoolTimer a1);
-
-		public delegate void AddrOfTarget68(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Core.CoreWindow a1, 
-					global::Windows.UI.Core.WindowActivatedEventArgs a2);
-
-		public delegate void AddrOfTarget69(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Core.CoreWindow a1, 
-					global::Windows.UI.Core.CharacterReceivedEventArgs a2);
-
-		public delegate void AddrOfTarget70(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Core.CoreWindow a1, 
-					global::Windows.UI.Core.CoreWindowEventArgs a2);
-
-		public delegate void AddrOfTarget71(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Core.CoreWindow a1, 
-					global::Windows.UI.Core.KeyEventArgs a2);
-
-		public delegate void AddrOfTarget72(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Core.CoreWindow a1, 
-					global::Windows.UI.Core.PointerEventArgs a2);
-
-		public delegate void AddrOfTarget73(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Core.CoreWindow a1, 
-					global::Windows.UI.Core.WindowSizeChangedEventArgs a2);
-
-		public delegate void AddrOfTarget74(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Core.CoreWindow a1, 
-					global::Windows.UI.Core.VisibilityChangedEventArgs a2);
-
-		public delegate void AddrOfTarget75(
-					global::System.__ComObject a0, 
-					global::Windows.Graphics.Display.DisplayInformation a1, 
-					object a2);
-
-		public delegate void AddrOfTarget76(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, uint> a1, 
-					uint a2);
-
-		public delegate void AddrOfTarget77(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, uint> a1, 
-					global::Windows.Foundation.AsyncStatus a2);
-
-		public delegate void AddrOfTarget78(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint> a1, 
-					uint a2);
-
-		public delegate void AddrOfTarget79(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint> a1, 
-					global::Windows.Foundation.AsyncStatus a2);
-
-		public delegate int AddrOfTarget80<T>(
-					global::Windows.Foundation.AsyncOperationCompletedHandler<T> a0, 
-					global::Windows.Foundation.IAsyncOperation<T> a1, 
-					global::Windows.Foundation.AsyncStatus a2);
-
-		public delegate void AddrOfTarget81(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.IAsyncOperation<bool> a1, 
-					global::Windows.Foundation.AsyncStatus a2);
-
-		public delegate void AddrOfTarget82(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IRandomAccessStreamWithContentType> a1, 
-					global::Windows.Foundation.AsyncStatus a2);
-
-		public delegate void AddrOfTarget83(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IRandomAccessStream> a1, 
-					global::Windows.Foundation.AsyncStatus a2);
-
-		public delegate void AddrOfTarget84(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.FileProperties.StorageItemThumbnail> a1, 
-					global::Windows.Foundation.AsyncStatus a2);
-
-		public delegate void AddrOfTarget85(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IDictionary<string, object>> a1, 
-					global::Windows.Foundation.AsyncStatus a2);
-
-		public delegate void AddrOfTarget86(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> a1, 
-					global::Windows.Foundation.AsyncStatus a2);
-
-		public delegate void AddrOfTarget87(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.IStorageItem> a1, 
-					global::Windows.Foundation.AsyncStatus a2);
-
-		public delegate void AddrOfTarget88(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem>> a1, 
-					global::Windows.Foundation.AsyncStatus a2);
-
-		public delegate void AddrOfTarget89(
-					global::System.__ComObject a0, 
-					global::Windows.UI.ViewManagement.InputPane a1, 
-					global::Windows.UI.ViewManagement.InputPaneVisibilityEventArgs a2);
-
-		public delegate object AddrOfTarget90<T>(global::System.Collections.Generic.IEnumerable<T> a0);
-
-		public delegate int AddrOfTarget91<T>(
+		public delegate int AddrOfTarget92<T>(
 					global::Windows.Foundation.Collections.IIterator<T> a0, 
 					global::System.Runtime.InteropServices.Toolbox.IIterator_Oper a1, 
 					ref object a2, 
 					int a3);
 
-		public delegate void AddrOfTarget92(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.VisualStateChangedEventArgs a2);
-
 		public delegate void AddrOfTarget93(
 					global::System.__ComObject a0, 
 					object a1, 
-					global::Windows.UI.Xaml.Controls.TextChangedEventArgs a2);
+					global::Windows.UI.Xaml.VisualStateChangedEventArgs a2);
 
 		public delegate void AddrOfTarget94(
 					global::System.__ComObject a0, 
@@ -2091,132 +3815,679 @@ namespace __Interop
 		public delegate void AddrOfTarget95(
 					global::System.__ComObject a0, 
 					object a1, 
-					global::Windows.UI.Xaml.Controls.TextControlPasteEventArgs a2);
+					global::Windows.UI.Xaml.Controls.TextChangedEventArgs a2);
 
 		public delegate void AddrOfTarget96(
 					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.Controls.TextBox a1, 
-					global::Windows.UI.Xaml.Controls.TextCompositionStartedEventArgs a2);
+					object a1, 
+					global::Windows.UI.Xaml.Controls.TextControlPasteEventArgs a2);
 
 		public delegate void AddrOfTarget97(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.TextBox a1, 
-					global::Windows.UI.Xaml.Controls.TextCompositionChangedEventArgs a2);
+					global::Windows.UI.Xaml.Controls.TextCompositionStartedEventArgs a2);
 
 		public delegate void AddrOfTarget98(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.TextBox a1, 
-					global::Windows.UI.Xaml.Controls.TextCompositionEndedEventArgs a2);
+					global::Windows.UI.Xaml.Controls.TextCompositionChangedEventArgs a2);
 
 		public delegate void AddrOfTarget99(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.TextBox a1, 
-					global::Windows.UI.Xaml.Controls.CandidateWindowBoundsChangedEventArgs a2);
+					global::Windows.UI.Xaml.Controls.TextCompositionEndedEventArgs a2);
 
 		public delegate void AddrOfTarget100(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.TextBox a1, 
-					global::Windows.UI.Xaml.Controls.TextBoxTextChangingEventArgs a2);
+					global::Windows.UI.Xaml.Controls.CandidateWindowBoundsChangedEventArgs a2);
 
 		public delegate void AddrOfTarget101(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.TextBox a1, 
+					global::Windows.UI.Xaml.Controls.TextBoxTextChangingEventArgs a2);
+
+		public delegate void AddrOfTarget102(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.SwapChainPanel a1, 
+					object a2);
+
+		public delegate void AddrOfTarget103(
+					global::System.__ComObject a0, 
+					global::Windows.System.Threading.ThreadPoolTimer a1);
+
+		public delegate void AddrOfTarget104(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Core.CoreWindow a1, 
+					global::Windows.UI.Core.WindowActivatedEventArgs a2);
+
+		public delegate void AddrOfTarget105(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Core.CoreWindow a1, 
+					global::Windows.UI.Core.CharacterReceivedEventArgs a2);
+
+		public delegate void AddrOfTarget106(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Core.CoreWindow a1, 
+					global::Windows.UI.Core.CoreWindowEventArgs a2);
+
+		public delegate void AddrOfTarget107(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Core.CoreWindow a1, 
+					global::Windows.UI.Core.KeyEventArgs a2);
+
+		public delegate void AddrOfTarget108(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Core.CoreWindow a1, 
+					global::Windows.UI.Core.PointerEventArgs a2);
+
+		public delegate void AddrOfTarget109(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Core.CoreWindow a1, 
+					global::Windows.UI.Core.WindowSizeChangedEventArgs a2);
+
+		public delegate void AddrOfTarget110(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Core.CoreWindow a1, 
+					global::Windows.UI.Core.VisibilityChangedEventArgs a2);
+
+		public delegate void AddrOfTarget111(
+					global::System.__ComObject a0, 
+					global::Windows.Graphics.Display.DisplayInformation a1, 
+					object a2);
+
+		public delegate void AddrOfTarget112(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, uint> a1, 
+					uint a2);
+
+		public delegate void AddrOfTarget113(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, uint> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget114(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint> a1, 
+					uint a2);
+
+		public delegate void AddrOfTarget115(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate int AddrOfTarget116<T>(
+					global::Windows.Foundation.AsyncOperationCompletedHandler<T> a0, 
+					global::Windows.Foundation.IAsyncOperation<T> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget117(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<bool> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget118(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IRandomAccessStreamWithContentType> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget119(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IRandomAccessStream> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget120(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.FileProperties.StorageItemThumbnail> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget121(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IDictionary<string, object>> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget122(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget123(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.IStorageItem> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget124(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem>> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget125(
+					global::System.__ComObject a0, 
+					global::Windows.UI.ViewManagement.InputPane a1, 
+					global::Windows.UI.ViewManagement.InputPaneVisibilityEventArgs a2);
+
+		public delegate void AddrOfTarget126(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.Collections.IObservableMap<string, string> a1, 
 					global::Windows.Foundation.Collections.IMapChangedEventArgs<string> a2);
 
-		public delegate void AddrOfTarget102(
+		public delegate void AddrOfTarget127(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.IAsyncAction a1);
 
-		public delegate void AddrOfTarget103(
+		public delegate void AddrOfTarget128(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.Foundation.Diagnostics.TracingStatusChangedEventArgs a2);
 
-		public delegate void AddrOfTarget104(
+		public delegate void AddrOfTarget129(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Navigation.NavigationEventArgs a2);
 
-		public delegate void AddrOfTarget105(
+		public delegate void AddrOfTarget130(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Navigation.NavigatingCancelEventArgs a2);
 
-		public delegate void AddrOfTarget106(
+		public delegate void AddrOfTarget131(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Navigation.NavigationFailedEventArgs a2);
 
-		public delegate void AddrOfTarget107(
+		public delegate void AddrOfTarget132(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Core.BackRequestedEventArgs a2);
 
-		public delegate void AddrOfTarget108(
+		public delegate void AddrOfTarget133(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.IAsyncOperation<global::Windows.UI.Popups.IUICommand> a1, 
 					global::Windows.Foundation.AsyncStatus a2);
 
-		public delegate void AddrOfTarget109(
+		public delegate void AddrOfTarget134(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Popups.IUICommand a1);
 
-		public delegate int AddrOfTarget110<T>(
+		public delegate int AddrOfTarget135<T>(
 					global::System.Collections.Generic.IList<T> a0, 
 					global::System.Runtime.InteropServices.Toolbox.IList_Oper a1, 
 					int a2, 
 					ref object a3);
 
-		public delegate int AddrOfTarget111<T>(
+		public delegate int AddrOfTarget136<T>(
 					global::System.Collections.Generic.IReadOnlyList<T> a0, 
 					global::System.Runtime.InteropServices.Toolbox.IList_Oper a1, 
 					int a2, 
 					ref T a3);
 
-		public delegate void AddrOfTarget112(
+		public delegate void AddrOfTarget137(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.IAsyncOperation<global::Windows.Graphics.Imaging.BitmapEncoder> a1, 
 					global::Windows.Foundation.AsyncStatus a2);
 
-		public delegate void AddrOfTarget113(
+		public delegate void AddrOfTarget138(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Core.WindowActivatedEventArgs a2);
 
-		public delegate void AddrOfTarget114(
+		public delegate void AddrOfTarget139(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Core.CoreWindowEventArgs a2);
 
-		public delegate void AddrOfTarget115(
+		public delegate void AddrOfTarget140(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Core.WindowSizeChangedEventArgs a2);
 
-		public delegate void AddrOfTarget116(
+		public delegate void AddrOfTarget141(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Core.VisibilityChangedEventArgs a2);
 
-		public delegate object AddrOfTarget117(object a0);
+		public delegate int AddrOfTarget142(
+					global::System.IntPtr a0, 
+					global::SharpDX.Direct2D1.PrimitiveBlend__SharpDX_Direct2D1 a1);
 
-		public delegate object AddrOfTarget118(global::System.__ComObject a0);
+		public delegate int AddrOfTarget143(
+					global::System.IntPtr a0, 
+					global::SharpDX.Direct2D1.AntialiasMode__SharpDX_Direct2D1 a1);
 
-		public delegate int AddrOfTarget119(
+		public delegate int AddrOfTarget144(
+					global::System.IntPtr a0, 
+					long a1, 
+					long a2);
+
+		public delegate int AddrOfTarget145(
+					global::System.IntPtr a0, 
+					global::SharpDX.Direct2D1.TextAntialiasMode__SharpDX_Direct2D1 a1);
+
+		public delegate int AddrOfTarget146(
+					global::System.IntPtr a0, 
+					global::SharpDX.Direct2D1.UnitMode__SharpDX_Direct2D1 a1);
+
+		public delegate int AddrOfTarget147(
+					global::System.IntPtr a0, 
+					global::SharpDX.Mathematics.Interop.RawVector2__SharpDX a1, 
+					global::System.IntPtr a2, 
+					global::System.IntPtr a3, 
+					global::System.IntPtr a4, 
+					global::SharpDX.Direct2D1.MeasuringMode__SharpDX_Direct2D1 a5);
+
+		public delegate int AddrOfTarget148(
+					global::System.IntPtr a0, 
+					global::SharpDX.Mathematics.Interop.RawVector2__SharpDX a1, 
+					global::SharpDX.Mathematics.Interop.RawVector2__SharpDX a2, 
+					global::System.IntPtr a3, 
+					float a4, 
+					global::System.IntPtr a5);
+
+		public delegate int AddrOfTarget149(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					global::System.IntPtr a2, 
+					float a3, 
+					global::System.IntPtr a4);
+
+		public delegate int AddrOfTarget150(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					global::System.IntPtr a2, 
+					float a3, 
+					global::SharpDX.Direct2D1.InterpolationMode__SharpDX_Direct2D1 a4, 
+					global::System.IntPtr a5, 
+					global::System.IntPtr a6);
+
+		public delegate int AddrOfTarget151(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					global::System.IntPtr a2, 
+					global::System.IntPtr a3, 
+					global::SharpDX.Direct2D1.InterpolationMode__SharpDX_Direct2D1 a4, 
+					global::SharpDX.Direct2D1.CompositeMode__SharpDX_Direct2D1 a5);
+
+		public delegate int AddrOfTarget152(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					global::System.IntPtr a2, 
+					global::System.IntPtr a3, 
+					global::System.IntPtr a4);
+
+		public delegate int AddrOfTarget153(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					global::System.IntPtr a2, 
+					global::System.IntPtr a3);
+
+		public delegate int AddrOfTarget154(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					global::SharpDX.Direct2D1.AntialiasMode__SharpDX_Direct2D1 a2);
+
+		public delegate int AddrOfTarget155(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					global::System.IntPtr a2, 
+					int a3);
+
+		public delegate int AddrOfTarget156(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					global::System.IntPtr a2, 
+					int a3, 
+					global::System.IntPtr a4, 
+					global::System.IntPtr a5);
+
+		public delegate int AddrOfTarget157(
+					global::System.IntPtr a0, 
+					int a1, 
+					global::System.IntPtr a2, 
+					global::System.IntPtr a3);
+
+		public delegate int AddrOfTarget158(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					int* a2, 
+					int* a3, 
+					int* a4);
+
+		public delegate int AddrOfTarget159(
+					global::System.IntPtr a0, 
+					int a1, 
+					global::System.IntPtr* a2, 
+					int* a3);
+
+		public delegate global::SharpDX.DirectWrite.ReadingDirection__SharpDX_Direct2D1 AddrOfTarget160(global::System.IntPtr a0);
+
+		public delegate int AddrOfTarget161(
+					global::System.IntPtr a0, 
+					int a1, 
+					int* a2, 
+					global::System.IntPtr* a3);
+
+		public delegate int AddrOfTarget162(
+					global::System.IntPtr a0, 
+					int a1, 
+					int* a2, 
+					global::SharpDX.DirectWrite.VerticalGlyphOrientation__SharpDX_Direct2D1* a3, 
+					byte* a4);
+
+		public delegate int AddrOfTarget163(
+					global::System.IntPtr a0, 
+					int a1, 
+					int a2, 
+					global::SharpDX.DirectWrite.ScriptAnalysis__SharpDX_Direct2D1* a3);
+
+		public delegate int AddrOfTarget164(
+					global::System.IntPtr a0, 
+					int a1, 
+					int a2, 
+					global::System.IntPtr a3);
+
+		public delegate int AddrOfTarget165(
+					global::System.IntPtr a0, 
+					int a1, 
+					int a2, 
+					byte a3, 
+					byte a4);
+
+		public delegate int AddrOfTarget166(
+					global::System.IntPtr a0, 
+					int a1, 
+					int a2, 
+					global::SharpDX.DirectWrite.GlyphOrientationAngle__SharpDX_Direct2D1 a3, 
+					byte a4, 
+					global::SharpDX.Mathematics.Interop.RawBool__SharpDX a5, 
+					global::SharpDX.Mathematics.Interop.RawBool__SharpDX a6);
+
+		public delegate int AddrOfTarget167(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					global::System.IntPtr a2, 
+					global::SharpDX.Mathematics.Interop.RawPoint__SharpDX a3);
+
+		public delegate int AddrOfTarget168(global::System.IntPtr* a0);
+
+		public delegate int AddrOfTarget169(
+					global::System.IntPtr a0, 
+					global::SharpDX.Direct2D1.ChangeType__SharpDX_Direct2D1 a1);
+
+		public delegate int AddrOfTarget170(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					int a2);
+
+		public delegate int AddrOfTarget171(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					int a2, 
+					int* a3);
+
+		public delegate int AddrOfTarget172(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					global::System.IntPtr a2, 
+					int a3, 
+					global::System.IntPtr* a4);
+
+		public delegate int AddrOfTarget173(
+					global::System.IntPtr a0, 
+					int* a1);
+
+		public delegate int AddrOfTarget174(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					int a2, 
+					global::System.IntPtr* a3);
+
+		public delegate int AddrOfTarget175(
+					global::System.IntPtr a0, 
+					global::System.IntPtr* a1, 
+					long a2, 
+					long a3, 
+					global::System.IntPtr* a4);
+
+		public delegate void AddrOfTarget176(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1);
+
+		public delegate int AddrOfTarget177(
+					global::System.IntPtr a0, 
+					long* a1);
+
+		public delegate int AddrOfTarget178(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					global::System.IntPtr a2, 
+					float a3, 
+					float a4, 
+					int a5, 
+					int a6, 
+					global::System.IntPtr a7);
+
+		public delegate int AddrOfTarget179(
+					global::System.IntPtr a0, 
+					global::SharpDX.DirectWrite.InlineObjectMetrics__SharpDX_Direct2D1* a1);
+
+		public delegate int AddrOfTarget180(
+					global::System.IntPtr a0, 
+					global::SharpDX.DirectWrite.OverhangMetrics__SharpDX_Direct2D1* a1);
+
+		public delegate int AddrOfTarget181(
+					global::System.IntPtr a0, 
+					global::SharpDX.DirectWrite.BreakCondition__SharpDX_Direct2D1* a1, 
+					global::SharpDX.DirectWrite.BreakCondition__SharpDX_Direct2D1* a2);
+
+		public delegate int AddrOfTarget182(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					int* a2);
+
+		public delegate int AddrOfTarget183(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					float* a2);
+
+		public delegate int AddrOfTarget184(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					float a2, 
+					float a3, 
+					global::SharpDX.Direct2D1.MeasuringMode__SharpDX_Direct2D1 a4, 
+					global::System.IntPtr a5, 
+					global::System.IntPtr a6, 
+					global::System.IntPtr a7);
+
+		public delegate int AddrOfTarget185(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					float a2, 
+					float a3, 
+					global::SharpDX.DirectWrite.Underline___Native__SharpDX_Direct2D1* a4, 
+					global::System.IntPtr a5);
+
+		public delegate int AddrOfTarget186(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					float a2, 
+					float a3, 
+					global::SharpDX.DirectWrite.Strikethrough___Native__SharpDX_Direct2D1* a4, 
+					global::System.IntPtr a5);
+
+		public delegate int AddrOfTarget187(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					float a2, 
+					float a3, 
+					global::System.IntPtr a4, 
+					int a5, 
+					int a6, 
+					global::System.IntPtr a7);
+
+		public delegate void AddrOfTarget188(
+					global::System.IntPtr a0, 
+					global::SharpDX.Direct2D1.FillMode__SharpDX_Direct2D1 a1);
+
+		public delegate void AddrOfTarget189(
+					global::System.IntPtr a0, 
+					global::SharpDX.Direct2D1.PathSegment__SharpDX_Direct2D1 a1);
+
+		public delegate void AddrOfTarget190(
+					global::System.IntPtr a0, 
+					global::SharpDX.Mathematics.Interop.RawVector2__SharpDX a1, 
+					global::SharpDX.Direct2D1.FigureBegin__SharpDX_Direct2D1 a2);
+
+		public delegate void AddrOfTarget191(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					int a2);
+
+		public delegate void AddrOfTarget192(
+					global::System.IntPtr a0, 
+					global::SharpDX.Direct2D1.FigureEnd__SharpDX_Direct2D1 a1);
+
+		public delegate void AddrOfTarget193(
+					global::System.IntPtr a0, 
+					global::SharpDX.Mathematics.Interop.RawVector2__SharpDX a1);
+
+		public delegate int AddrOfTarget194(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					global::System.IntPtr* a2);
+
+		public delegate int AddrOfTarget195(
+					global::System.IntPtr a0, 
+					int* a1, 
+					global::System.IntPtr* a2);
+
+		public delegate int AddrOfTarget196(
+					global::System.IntPtr a0, 
+					long a1, 
+					global::System.IO.SeekOrigin__System_IO a2, 
+					global::System.IntPtr a3);
+
+		public delegate global::SharpDX.Result__SharpDX AddrOfTarget197(
+					global::System.IntPtr a0, 
+					long a1);
+
+		public delegate int AddrOfTarget198(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					long a2, 
+					long* a3, 
+					long* a4);
+
+		public delegate global::SharpDX.Result__SharpDX AddrOfTarget199(
+					global::System.IntPtr a0, 
+					global::SharpDX.Win32.CommitFlags__SharpDX a1);
+
+		public delegate global::SharpDX.Result__SharpDX AddrOfTarget200(global::System.IntPtr a0);
+
+		public delegate global::SharpDX.Result__SharpDX AddrOfTarget201(
+					global::System.IntPtr a0, 
+					long a1, 
+					long a2, 
+					global::SharpDX.Win32.LockType__SharpDX a3);
+
+		public delegate global::SharpDX.Result__SharpDX AddrOfTarget202(
+					global::System.IntPtr a0, 
+					global::SharpDX.Win32.StorageStatistics___Native__SharpDX* a1, 
+					global::SharpDX.Win32.StorageStatisticsFlags__SharpDX a2);
+
+		public delegate global::SharpDX.Result__SharpDX AddrOfTarget203(
+					global::System.IntPtr a0, 
+					global::System.IntPtr* a1);
+
+		public delegate int AddrOfTarget204(
+					global::System.IntPtr a0, 
+					global::SharpDX.MediaFoundation.AsyncCallbackFlags__SharpDX_MediaFoundation* a1, 
+					global::SharpDX.MediaFoundation.WorkQueueId__SharpDX_MediaFoundation* a2);
+
+		public delegate int AddrOfTarget205(
+					global::System.IntPtr a0, 
+					long a1);
+
+		public delegate int AddrOfTarget206(
+					global::System.IntPtr a0, 
+					long a1, 
+					float a2);
+
+		public delegate int AddrOfTarget207(
+					global::System.IntPtr a0, 
+					global::System.Guid* a1, 
+					int a2, 
+					long a3, 
+					long a4, 
+					global::System.IntPtr a5, 
+					int a6);
+
+		public delegate int AddrOfTarget208(
+					global::System.IntPtr a0, 
+					global::System.Guid* a1, 
+					int a2, 
+					long a3, 
+					long a4, 
+					global::System.IntPtr a5, 
+					int a6, 
+					global::System.IntPtr a7);
+
+		public delegate int AddrOfTarget209(
+					global::System.IntPtr a0, 
+					int a1, 
+					global::System.IntPtr a2, 
+					int a3);
+
+		public delegate void AddrOfTarget210(global::System.IntPtr a0);
+
+		public delegate void AddrOfTarget211(
+					global::System.IntPtr a0, 
+					int a1);
+
+		public delegate int AddrOfTarget212(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					global::System.IntPtr a2, 
+					global::System.IntPtr* a3);
+
+		public delegate int AddrOfTarget213(
+					global::System.IntPtr a0, 
+					int a1, 
+					global::SharpDX.XAPO.LockParameters___Native__SharpDX_XAudio2* a2, 
+					int a3, 
+					global::SharpDX.XAPO.LockParameters___Native__SharpDX_XAudio2* a4);
+
+		public delegate void AddrOfTarget214(
+					global::System.IntPtr a0, 
+					int a1, 
+					global::SharpDX.XAPO.BufferParameters__SharpDX_XAudio2* a2, 
+					int a3, 
+					global::SharpDX.XAPO.BufferParameters__SharpDX_XAudio2* a4, 
+					int a5);
+
+		public delegate int AddrOfTarget215(
+					global::System.IntPtr a0, 
+					int a1);
+
+		public delegate object AddrOfTarget216(object a0);
+
+		public delegate object AddrOfTarget217(global::System.__ComObject a0);
+
+		public delegate int AddrOfTarget218(
 					ref global::Windows.UI.Xaml.Markup.XmlnsDefinition a0, 
 					out global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType a1);
 
-		public delegate int AddrOfTarget120(
+		public delegate int AddrOfTarget219(
 					ref global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType a0, 
 					out global::Windows.UI.Xaml.Markup.XmlnsDefinition a1);
 
-		public delegate void AddrOfTarget121(ref global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType a0);
+		public delegate void AddrOfTarget220(ref global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType a0);
 
-		public delegate int AddrOfTarget122(
+		public delegate int AddrOfTarget221(
 					ref global::Windows.UI.Core.CorePhysicalKeyStatus a0, 
 					out global::Windows.UI.Core.CorePhysicalKeyStatus__Impl.UnsafeType a1);
 
-		public delegate int AddrOfTarget123(
+		public delegate int AddrOfTarget222(
 					ref global::Windows.UI.Core.CorePhysicalKeyStatus__Impl.UnsafeType a0, 
 					out global::Windows.UI.Core.CorePhysicalKeyStatus a1);
 	}

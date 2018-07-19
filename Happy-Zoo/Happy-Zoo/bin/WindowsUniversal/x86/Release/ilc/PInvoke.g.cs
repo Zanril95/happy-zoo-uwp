@@ -2,6 +2,7 @@
 using Mcg.System;
 using System;
 using System.Collections.Generic;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -52,6 +53,2185 @@ using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace __Interop
 {
+	/// <summary>
+	/// P/Invoke class for module 'd2d1.dll'
+	/// </summary>
+	public unsafe static partial class d2d1_dll
+	{
+		// Signature, D2D1IsMatrixInvertible_, [fwd] [return] [Mcg.CodeGen.BlittableStructMarshaller] SharpDX_Mathematics_Interop_RawBool__SharpDX__SharpDX_Mathematics_Interop__RawBool__SharpDX, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.Direct2D1, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.Direct2D1.D2D1", "D2D1IsMatrixInvertible_")]
+		public static global::SharpDX.Mathematics.Interop.RawBool__SharpDX D2D1IsMatrixInvertible_(void* arg0)
+		{
+			// Setup
+			global::SharpDX.Mathematics.Interop.RawBool__SharpDX unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.d2d1_dll_PInvokes.D2D1IsMatrixInvertible_(((void*)arg0));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, D2D1InvertMatrix_, [fwd] [return] [Mcg.CodeGen.BlittableStructMarshaller] SharpDX_Mathematics_Interop_RawBool__SharpDX__SharpDX_Mathematics_Interop__RawBool__SharpDX, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.Direct2D1, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.Direct2D1.D2D1", "D2D1InvertMatrix_")]
+		public static global::SharpDX.Mathematics.Interop.RawBool__SharpDX D2D1InvertMatrix_(void* arg0)
+		{
+			// Setup
+			global::SharpDX.Mathematics.Interop.RawBool__SharpDX unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.d2d1_dll_PInvokes.D2D1InvertMatrix_(((void*)arg0));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, D2D1MakeSkewMatrix_, [fwd] [return] [Mcg.CodeGen.VoidReturnMarshaller] void__void, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] float__float, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] float__float, [fwd] [in] [Mcg.CodeGen.BlittableStructMarshaller] SharpDX_Mathematics_Interop_RawVector2__SharpDX__SharpDX_Mathematics_Interop__RawVector2__SharpDX, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.Direct2D1, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.Direct2D1.D2D1", "D2D1MakeSkewMatrix_")]
+		public static void D2D1MakeSkewMatrix_(
+					float arg0, 
+					float arg1, 
+					global::SharpDX.Mathematics.Interop.RawVector2__SharpDX arg2, 
+					void* arg3)
+		{
+			// Marshalling
+			// Call to native method
+			global::__Interop.d2d1_dll_PInvokes.D2D1MakeSkewMatrix_(
+								arg0, 
+								arg1, 
+								arg2, 
+								((void*)arg3)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+		}
+
+		// Signature, D2D1CreateFactory_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.Direct2D1, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.Direct2D1.D2D1", "D2D1CreateFactory_")]
+		public static int D2D1CreateFactory_(
+					int arg0, 
+					void* arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.d2d1_dll_PInvokes.D2D1CreateFactory_(
+								arg0, 
+								((void*)arg1), 
+								((void*)arg2), 
+								((void*)arg3)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, D2D1MakeRotateMatrix_, [fwd] [return] [Mcg.CodeGen.VoidReturnMarshaller] void__void, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] float__float, [fwd] [in] [Mcg.CodeGen.BlittableStructMarshaller] SharpDX_Mathematics_Interop_RawVector2__SharpDX__SharpDX_Mathematics_Interop__RawVector2__SharpDX, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.Direct2D1, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.Direct2D1.D2D1", "D2D1MakeRotateMatrix_")]
+		public static void D2D1MakeRotateMatrix_(
+					float arg0, 
+					global::SharpDX.Mathematics.Interop.RawVector2__SharpDX arg1, 
+					void* arg2)
+		{
+			// Marshalling
+			// Call to native method
+			global::__Interop.d2d1_dll_PInvokes.D2D1MakeRotateMatrix_(
+								arg0, 
+								arg1, 
+								((void*)arg2)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+		}
+
+		// Signature, D2D1Tan_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] float__float, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] float__float, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.Direct2D1, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.Direct2D1.D2D1", "D2D1Tan_")]
+		public static float D2D1Tan_(float arg0)
+		{
+			// Setup
+			float unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.d2d1_dll_PInvokes.D2D1Tan_(arg0);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, D2D1Vec3Length_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] float__float, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] float__float, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] float__float, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] float__float, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.Direct2D1, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.Direct2D1.D2D1", "D2D1Vec3Length_")]
+		public static float D2D1Vec3Length_(
+					float arg0, 
+					float arg1, 
+					float arg2)
+		{
+			// Setup
+			float unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.d2d1_dll_PInvokes.D2D1Vec3Length_(
+								arg0, 
+								arg1, 
+								arg2
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, D2D1SinCos_, [fwd] [return] [Mcg.CodeGen.VoidReturnMarshaller] void__void, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] float__float, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.Direct2D1, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.Direct2D1.D2D1", "D2D1SinCos_")]
+		public static void D2D1SinCos_(
+					float arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// Marshalling
+			// Call to native method
+			global::__Interop.d2d1_dll_PInvokes.D2D1SinCos_(
+								arg0, 
+								((void*)arg1), 
+								((void*)arg2)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+		}
+
+		// Signature, D2D1CreateDevice_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.Direct2D1, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.Direct2D1.D2D1", "D2D1CreateDevice_")]
+		public static int D2D1CreateDevice_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.d2d1_dll_PInvokes.D2D1CreateDevice_(
+								((void*)arg0), 
+								((void*)arg1), 
+								((void*)arg2)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, D2D1ConvertColorSpace_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.Direct2D1, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.Direct2D1.D2D1", "D2D1ConvertColorSpace_")]
+		public static void* D2D1ConvertColorSpace_(
+					void* arg0, 
+					int arg1, 
+					int arg2, 
+					void* arg3)
+		{
+			// Setup
+			void* unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = (void*)global::__Interop.d2d1_dll_PInvokes.D2D1ConvertColorSpace_(
+								((void*)arg0), 
+								arg1, 
+								arg2, 
+								((void*)arg3)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return (void*)unsafe___value;
+		}
+
+		// Signature, D2D1CreateDeviceContext_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.Direct2D1, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.Direct2D1.D2D1", "D2D1CreateDeviceContext_")]
+		public static int D2D1CreateDeviceContext_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.d2d1_dll_PInvokes.D2D1CreateDeviceContext_(
+								((void*)arg0), 
+								((void*)arg1), 
+								((void*)arg2)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, D2D1ComputeMaximumScaleFactor_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] float__float, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.Direct2D1, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.Direct2D1.D2D1", "D2D1ComputeMaximumScaleFactor_")]
+		public static float D2D1ComputeMaximumScaleFactor_(void* arg0)
+		{
+			// Setup
+			float unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.d2d1_dll_PInvokes.D2D1ComputeMaximumScaleFactor_(((void*)arg0));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+	}
+
+	/// <summary>
+	/// P/Invoke class for module 'dwrite.dll'
+	/// </summary>
+	public unsafe static partial class dwrite_dll
+	{
+		// Signature, DWriteCreateFactory_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.Direct2D1, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.DirectWrite.DWrite", "DWriteCreateFactory_")]
+		public static int DWriteCreateFactory_(
+					int arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.dwrite_dll_PInvokes.DWriteCreateFactory_(
+								arg0, 
+								((void*)arg1), 
+								((void*)arg2)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+	}
+
+	/// <summary>
+	/// P/Invoke class for module 'd3d11.dll'
+	/// </summary>
+	public unsafe static partial class d3d11_dll
+	{
+		// Signature, D3D11CreateDevice_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.Direct3D11, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.Direct3D11.D3D11", "D3D11CreateDevice_")]
+		public static int D3D11CreateDevice_(
+					void* arg0, 
+					int arg1, 
+					void* arg2, 
+					int arg3, 
+					void* arg4, 
+					int arg5, 
+					int arg6, 
+					void* arg7, 
+					void* arg8, 
+					void* arg9)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.d3d11_dll_PInvokes.D3D11CreateDevice_(
+								((void*)arg0), 
+								arg1, 
+								((void*)arg2), 
+								arg3, 
+								((void*)arg4), 
+								arg5, 
+								arg6, 
+								((void*)arg7), 
+								((void*)arg8), 
+								((void*)arg9)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+	}
+
+	/// <summary>
+	/// P/Invoke class for module 'api-ms-win-core-localization-l1-2-1.dll'
+	/// </summary>
+	public unsafe static partial class api_ms_win_core_localization_l1_2_1_dll
+	{
+		// Signature, FormatMessageW, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.ResultDescriptor", "FormatMessageW")]
+		public static uint FormatMessageW(
+					int dwFlags, 
+					global::System.IntPtr lpSource, 
+					int dwMessageId, 
+					int dwLanguageId, 
+					ref global::System.IntPtr lpBuffer, 
+					int nSize, 
+					global::System.IntPtr Arguments)
+		{
+			// Setup
+			global::System.IntPtr unsafe_lpBuffer;
+			uint unsafe___value;
+			// Marshalling
+			unsafe_lpBuffer = lpBuffer;
+			// Call to native method
+			unsafe___value = global::__Interop.api_ms_win_core_localization_l1_2_1_dll_PInvokes.FormatMessageW(
+								dwFlags, 
+								lpSource, 
+								dwMessageId, 
+								dwLanguageId, 
+								&(unsafe_lpBuffer), 
+								nSize, 
+								Arguments
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			lpBuffer = unsafe_lpBuffer;
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, IsValidLocaleName, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] char___ptrwchar_t *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.WinRTInterop.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "mincore+mincore_PInvokes", "IsValidLocaleName")]
+		public static int IsValidLocaleName(char* lpLocaleName)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.api_ms_win_core_localization_l1_2_1_dll_PInvokes.IsValidLocaleName(((ushort*)lpLocaleName));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, ResolveLocaleName, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] char___ptrwchar_t *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] char___ptrwchar_t *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.WinRTInterop.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "mincore+mincore_PInvokes", "ResolveLocaleName")]
+		public static int ResolveLocaleName(
+					char* lpNameToResolve, 
+					char* lpLocaleName, 
+					int cchLocaleName)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.api_ms_win_core_localization_l1_2_1_dll_PInvokes.ResolveLocaleName(
+								((ushort*)lpNameToResolve), 
+								((ushort*)lpLocaleName), 
+								cchLocaleName
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, GetCPInfoExW, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] Interop_mincore_CPINFOEXW__System_Text_Encoding_CodePages___ptr__Interop_mincore_CPINFOEXW__System_Text_Encoding_CodePages *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Text.Encoding.CodePages, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "GetCPInfoExW")]
+		public static int GetCPInfoExW(
+					uint CodePage, 
+					uint dwFlags, 
+					global::Interop_mincore_CPINFOEXW__System_Text_Encoding_CodePages* lpCPInfoEx)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.api_ms_win_core_localization_l1_2_1_dll_PInvokes.GetCPInfoExW(
+								CodePage, 
+								dwFlags, 
+								((global::Interop_mincore_CPINFOEXW__System_Text_Encoding_CodePages*)lpCPInfoEx)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+	}
+
+	/// <summary>
+	/// P/Invoke class for module 'api-ms-win-core-file-l1-2-1.dll'
+	/// </summary>
+	public unsafe static partial class api_ms_win_core_file_l1_2_1_dll
+	{
+		// Signature, ReadFile, [fwd] [return] [Mcg.CodeGen.Win32BoolMarshaller] bool__System.Boolean, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.IO.NativeFile", "ReadFile")]
+		public static bool ReadFile(
+					global::System.IntPtr fileHandle, 
+					global::System.IntPtr buffer, 
+					int numberOfBytesToRead, 
+					out int numberOfBytesRead, 
+					global::System.IntPtr overlapped)
+		{
+			// Setup
+			int unsafe_numberOfBytesRead;
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.api_ms_win_core_file_l1_2_1_dll_PInvokes.ReadFile(
+								fileHandle, 
+								buffer, 
+								numberOfBytesToRead, 
+								&(unsafe_numberOfBytesRead), 
+								overlapped
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			numberOfBytesRead = unsafe_numberOfBytesRead;
+			// Return
+			return unsafe___value != 0;
+		}
+
+		// Signature, FlushFileBuffers, [fwd] [return] [Mcg.CodeGen.Win32BoolMarshaller] bool__System.Boolean, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.IO.NativeFile", "FlushFileBuffers")]
+		public static bool FlushFileBuffers(global::System.IntPtr hFile)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.api_ms_win_core_file_l1_2_1_dll_PInvokes.FlushFileBuffers(hFile);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			// Return
+			return unsafe___value != 0;
+		}
+
+		// Signature, WriteFile, [fwd] [return] [Mcg.CodeGen.Win32BoolMarshaller] bool__System.Boolean, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.IO.NativeFile", "WriteFile")]
+		public static bool WriteFile(
+					global::System.IntPtr fileHandle, 
+					global::System.IntPtr buffer, 
+					int numberOfBytesToRead, 
+					out int numberOfBytesRead, 
+					global::System.IntPtr overlapped)
+		{
+			// Setup
+			int unsafe_numberOfBytesRead;
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.api_ms_win_core_file_l1_2_1_dll_PInvokes.WriteFile(
+								fileHandle, 
+								buffer, 
+								numberOfBytesToRead, 
+								&(unsafe_numberOfBytesRead), 
+								overlapped
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			numberOfBytesRead = unsafe_numberOfBytesRead;
+			// Return
+			return unsafe___value != 0;
+		}
+
+		// Signature, SetFilePointerEx, [fwd] [return] [Mcg.CodeGen.Win32BoolMarshaller] bool__System.Boolean, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] long____int64, [fwd] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] long____int64, [fwd] [in] [Mcg.CodeGen.EnumMarshaller] System_IO_SeekOrigin__System_IO__SeekOrigin__System_IO, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.IO.NativeFile", "SetFilePointerEx")]
+		public static bool SetFilePointerEx(
+					global::System.IntPtr handle, 
+					long distanceToMove, 
+					out long distanceToMoveHigh, 
+					global::System.IO.SeekOrigin__System_IO seekOrigin)
+		{
+			// Setup
+			long unsafe_distanceToMoveHigh;
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.api_ms_win_core_file_l1_2_1_dll_PInvokes.SetFilePointerEx(
+								handle, 
+								distanceToMove, 
+								&(unsafe_distanceToMoveHigh), 
+								seekOrigin
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			distanceToMoveHigh = unsafe_distanceToMoveHigh;
+			// Return
+			return unsafe___value != 0;
+		}
+
+		// Signature, SetEndOfFile, [fwd] [return] [Mcg.CodeGen.Win32BoolMarshaller] bool__System.Boolean, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.IO.NativeFile", "SetEndOfFile")]
+		public static bool SetEndOfFile(global::System.IntPtr handle)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.api_ms_win_core_file_l1_2_1_dll_PInvokes.SetEndOfFile(handle);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			// Return
+			return unsafe___value != 0;
+		}
+
+		// Signature, GetFileAttributesEx, [fwd] [return] [Mcg.CodeGen.Win32BoolMarshaller] bool__System.Boolean, [fwd] [in] [Mcg.CodeGen.UnicodeStringMarshaller] string__wchar_t *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.BlittableStructMarshaller] SharpDX_IO_NativeFile_WIN32_FILE_ATTRIBUTE_DATA__SharpDX__SharpDX_IO__NativeFile_WIN32_FILE_ATTRIBUTE_DATA__SharpDX, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.IO.NativeFile", "GetFileAttributesEx")]
+		public static bool GetFileAttributesEx(
+					string name, 
+					int fileInfoLevel, 
+					out global::SharpDX.IO.NativeFile_WIN32_FILE_ATTRIBUTE_DATA__SharpDX lpFileInformation)
+		{
+			// Setup
+			ushort* unsafe_name = default(ushort*);
+			global::SharpDX.IO.NativeFile_WIN32_FILE_ATTRIBUTE_DATA__SharpDX unsafe_lpFileInformation;
+			int unsafe___value;
+			// Marshalling
+			fixed (char* pinned_name = name)
+			{
+				unsafe_name = (ushort*)pinned_name;
+				// Call to native method
+				unsafe___value = global::__Interop.api_ms_win_core_file_l1_2_1_dll_PInvokes.GetFileAttributesEx(
+									unsafe_name, 
+									fileInfoLevel, 
+									&(unsafe_lpFileInformation)
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+				lpFileInformation = unsafe_lpFileInformation;
+			}
+			// Return
+			return unsafe___value != 0;
+		}
+
+		// Signature, Create, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.UnicodeStringMarshaller] string__wchar_t *, [fwd] [in] [Mcg.CodeGen.EnumMarshaller] SharpDX_IO_NativeFileAccess__SharpDX__NativeFileAccess__SharpDX, [fwd] [in] [Mcg.CodeGen.EnumMarshaller] SharpDX_IO_NativeFileShare__SharpDX__NativeFileShare__SharpDX, [fwd] [in] [Mcg.CodeGen.EnumMarshaller] SharpDX_IO_NativeFileMode__SharpDX__NativeFileMode__SharpDX, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.IO.NativeFile", "Create")]
+		public static global::System.IntPtr Create(
+					string fileName, 
+					global::SharpDX.IO.NativeFileAccess__SharpDX desiredAccess, 
+					global::SharpDX.IO.NativeFileShare__SharpDX shareMode, 
+					global::SharpDX.IO.NativeFileMode__SharpDX mode, 
+					global::System.IntPtr extendedParameters)
+		{
+			// Setup
+			ushort* unsafe_fileName = default(ushort*);
+			global::System.IntPtr unsafe___value;
+			// Marshalling
+			fixed (char* pinned_fileName = fileName)
+			{
+				unsafe_fileName = (ushort*)pinned_fileName;
+				// Call to native method
+				unsafe___value = global::__Interop.api_ms_win_core_file_l1_2_1_dll_PInvokes.Create(
+									unsafe_fileName, 
+									desiredAccess, 
+									shareMode, 
+									mode, 
+									extendedParameters
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			}
+			// Return
+			return unsafe___value;
+		}
+	}
+
+	/// <summary>
+	/// P/Invoke class for module 'api-ms-win-core-file-l2-1-1.dll'
+	/// </summary>
+	public unsafe static partial class api_ms_win_core_file_l2_1_1_dll
+	{
+		// Signature, GetFileInformationByHandleEx, [fwd] [return] [Mcg.CodeGen.Win32BoolMarshaller] bool__System.Boolean, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.EnumMarshaller] SharpDX_IO_NativeFile_FILE_INFO_BY_HANDLE_CLASS__SharpDX__NativeFile_FILE_INFO_BY_HANDLE_CLASS__SharpDX, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.IO.NativeFile", "GetFileInformationByHandleEx")]
+		public static bool GetFileInformationByHandleEx(
+					global::System.IntPtr handle, 
+					global::SharpDX.IO.NativeFile_FILE_INFO_BY_HANDLE_CLASS__SharpDX FileInformationClass, 
+					global::System.IntPtr lpFileInformation, 
+					int dwBufferSize)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.api_ms_win_core_file_l2_1_1_dll_PInvokes.GetFileInformationByHandleEx(
+								handle, 
+								FileInformationClass, 
+								lpFileInformation, 
+								dwBufferSize
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			// Return
+			return unsafe___value != 0;
+		}
+	}
+
+	/// <summary>
+	/// P/Invoke class for module 'api-ms-win-core-com-l1-1-1.dll'
+	/// </summary>
+	public unsafe static partial class api_ms_win_core_com_l1_1_1_dll
+	{
+		// Signature, CoCreateInstanceFromApp, [fwd] [return] [Mcg.CodeGen.BlittableStructMarshaller] SharpDX_Result__SharpDX__SharpDX__Result__SharpDX, [fwd] [in] [Mcg.CodeGen.BlittableStructPtrMarshaller] System_Guid__System.Guid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.EnumMarshaller] SharpDX_Utilities_CLSCTX__SharpDX__Utilities_CLSCTX__SharpDX, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.BlittableStructMarshaller] SharpDX_Utilities_MultiQueryInterface__SharpDX__SharpDX__Utilities_MultiQueryInterface__SharpDX, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.Utilities", "CoCreateInstanceFromApp")]
+		public static global::SharpDX.Result__SharpDX CoCreateInstanceFromApp(
+					global::System.Guid rclsid, 
+					global::System.IntPtr pUnkOuter, 
+					global::SharpDX.Utilities_CLSCTX__SharpDX dwClsContext, 
+					global::System.IntPtr reserved, 
+					int countMultiQuery, 
+					ref global::SharpDX.Utilities_MultiQueryInterface__SharpDX query)
+		{
+			// Setup
+			global::System.Guid* unsafe_rclsid;
+			global::SharpDX.Utilities_MultiQueryInterface__SharpDX unsafe_query;
+			global::SharpDX.Result__SharpDX unsafe___value;
+			// Marshalling
+			unsafe_rclsid = (global::System.Guid*)&(rclsid);
+			unsafe_query = query;
+			// Call to native method
+			unsafe___value = global::__Interop.api_ms_win_core_com_l1_1_1_dll_PInvokes.CoCreateInstanceFromApp(
+								unsafe_rclsid, 
+								pUnkOuter, 
+								dwClsContext, 
+								reserved, 
+								countMultiQuery, 
+								&(unsafe_query)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			query = unsafe_query;
+			// Return
+			return unsafe___value;
+		}
+	}
+
+	/// <summary>
+	/// P/Invoke class for module 'api-ms-win-core-handle-l1-1-0.dll'
+	/// </summary>
+	public unsafe static partial class api_ms_win_core_handle_l1_1_0_dll
+	{
+		// Signature, CloseHandle, [fwd] [return] [Mcg.CodeGen.Win32BoolMarshaller] bool__System.Boolean, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.Utilities", "CloseHandle")]
+		public static bool CloseHandle(global::System.IntPtr handle)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.api_ms_win_core_handle_l1_1_0_dll_PInvokes.CloseHandle(handle);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			// Return
+			return unsafe___value != 0;
+		}
+	}
+
+	/// <summary>
+	/// P/Invoke class for module 'api-ms-win-core-libraryloader-l1-2-0.dll'
+	/// </summary>
+	public unsafe static partial class api_ms_win_core_libraryloader_l1_2_0_dll
+	{
+		// Signature, GetProcAddress_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.AnsiStringMarshaller] string__unsigned char *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.Utilities", "GetProcAddress_")]
+		public static global::System.IntPtr GetProcAddress_(
+					global::System.IntPtr hModule, 
+					string procName)
+		{
+			// Setup
+			byte* unsafe_procName = default(byte*);
+			global::System.IntPtr unsafe___value;
+			try
+			{
+				// Marshalling
+				unsafe_procName = global::System.Runtime.InteropServices.McgMarshal.StringToAnsiString(procName, true, false);
+				// Call to native method
+				unsafe___value = global::__Interop.api_ms_win_core_libraryloader_l1_2_0_dll_PInvokes.GetProcAddress_(
+									hModule, 
+									unsafe_procName
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+				// Return
+				return unsafe___value;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree(unsafe_procName);
+			}
+		}
+	}
+
+	/// <summary>
+	/// P/Invoke class for module 'dxgi.dll'
+	/// </summary>
+	public unsafe static partial class dxgi_dll
+	{
+		// Signature, CreateDXGIFactory1_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.DXGI, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.DXGI.DXGI", "CreateDXGIFactory1_")]
+		public static int CreateDXGIFactory1_(
+					void* arg0, 
+					void* arg1)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.dxgi_dll_PInvokes.CreateDXGIFactory1_(
+								((void*)arg0), 
+								((void*)arg1)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, CreateDXGIFactory2_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.DXGI, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.DXGI.DXGI", "CreateDXGIFactory2_")]
+		public static int CreateDXGIFactory2_(
+					int arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.dxgi_dll_PInvokes.CreateDXGIFactory2_(
+								arg0, 
+								((void*)arg1), 
+								((void*)arg2)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+	}
+
+	/// <summary>
+	/// P/Invoke class for module 'mfplat.dll'
+	/// </summary>
+	public unsafe static partial class mfplat_dll
+	{
+		// Signature, MFStartup_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFStartup_")]
+		public static int MFStartup_(
+					int arg0, 
+					int arg1)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFStartup_(
+								arg0, 
+								arg1
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateMediaExtensionActivate_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateMediaExtensionActivate_")]
+		public static int MFCreateMediaExtensionActivate_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateMediaExtensionActivate_(
+								((void*)arg0), 
+								((void*)arg1), 
+								((void*)arg2), 
+								((void*)arg3)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCancelWorkItem_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] long____int64, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCancelWorkItem_")]
+		public static int MFCancelWorkItem_(long arg0)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCancelWorkItem_(arg0);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateAttributes_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateAttributes_")]
+		public static int MFCreateAttributes_(
+					void* arg0, 
+					int arg1)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateAttributes_(
+								((void*)arg0), 
+								arg1
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateWaveFormatExFromMFMediaType_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateWaveFormatExFromMFMediaType_")]
+		public static int MFCreateWaveFormatExFromMFMediaType_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					int arg3)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateWaveFormatExFromMFMediaType_(
+								((void*)arg0), 
+								((void*)arg1), 
+								((void*)arg2), 
+								arg3
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFPutWaitingWorkItem_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFPutWaitingWorkItem_")]
+		public static int MFPutWaitingWorkItem_(
+					void* arg0, 
+					int arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFPutWaitingWorkItem_(
+								((void*)arg0), 
+								arg1, 
+								((void*)arg2), 
+								((void*)arg3)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateDXGISurfaceBuffer_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableStructMarshaller] SharpDX_Mathematics_Interop_RawBool__SharpDX__SharpDX_Mathematics_Interop__RawBool__SharpDX, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateDXGISurfaceBuffer_")]
+		public static int MFCreateDXGISurfaceBuffer_(
+					void* arg0, 
+					void* arg1, 
+					int arg2, 
+					global::SharpDX.Mathematics.Interop.RawBool__SharpDX arg3, 
+					void* arg4)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateDXGISurfaceBuffer_(
+								((void*)arg0), 
+								((void*)arg1), 
+								arg2, 
+								arg3, 
+								((void*)arg4)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFUnwrapMediaType_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFUnwrapMediaType_")]
+		public static int MFUnwrapMediaType_(
+					void* arg0, 
+					void* arg1)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFUnwrapMediaType_(
+								((void*)arg0), 
+								((void*)arg1)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFllMulDiv_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] long____int64, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] long____int64, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] long____int64, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] long____int64, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] long____int64, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFllMulDiv_")]
+		public static long MFllMulDiv_(
+					long arg0, 
+					long arg1, 
+					long arg2, 
+					long arg3)
+		{
+			// Setup
+			long unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFllMulDiv_(
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCopyImage_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCopyImage_")]
+		public static int MFCopyImage_(
+					void* arg0, 
+					int arg1, 
+					void* arg2, 
+					int arg3, 
+					int arg4, 
+					int arg5)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCopyImage_(
+								((void*)arg0), 
+								arg1, 
+								((void*)arg2), 
+								arg3, 
+								arg4, 
+								arg5
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFPutWorkItem2_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFPutWorkItem2_")]
+		public static int MFPutWorkItem2_(
+					int arg0, 
+					int arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFPutWorkItem2_(
+								arg0, 
+								arg1, 
+								((void*)arg2), 
+								((void*)arg3)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFLockWorkQueue_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFLockWorkQueue_")]
+		public static int MFLockWorkQueue_(int arg0)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFLockWorkQueue_(arg0);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFInitMediaTypeFromWaveFormatEx_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFInitMediaTypeFromWaveFormatEx_")]
+		public static int MFInitMediaTypeFromWaveFormatEx_(
+					void* arg0, 
+					void* arg1, 
+					int arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFInitMediaTypeFromWaveFormatEx_(
+								((void*)arg0), 
+								((void*)arg1), 
+								arg2
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFLockSharedWorkQueue_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFLockSharedWorkQueue_")]
+		public static int MFLockSharedWorkQueue_(
+					void* arg0, 
+					int arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFLockSharedWorkQueue_(
+								((void*)arg0), 
+								arg1, 
+								((void*)arg2), 
+								((void*)arg3)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFGetAttributesAsBlobSize_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFGetAttributesAsBlobSize_")]
+		public static int MFGetAttributesAsBlobSize_(
+					void* arg0, 
+					void* arg1)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFGetAttributesAsBlobSize_(
+								((void*)arg0), 
+								((void*)arg1)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFAllocateSerialWorkQueue_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFAllocateSerialWorkQueue_")]
+		public static int MFAllocateSerialWorkQueue_(
+					int arg0, 
+					void* arg1)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFAllocateSerialWorkQueue_(
+								arg0, 
+								((void*)arg1)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFInitAttributesFromBlob_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFInitAttributesFromBlob_")]
+		public static int MFInitAttributesFromBlob_(
+					void* arg0, 
+					void* arg1, 
+					int arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFInitAttributesFromBlob_(
+								((void*)arg0), 
+								((void*)arg1), 
+								arg2
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFUnlockDXGIDeviceManager_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFUnlockDXGIDeviceManager_")]
+		public static int MFUnlockDXGIDeviceManager_()
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFUnlockDXGIDeviceManager_();
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateAsyncResult_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateAsyncResult_")]
+		public static int MFCreateAsyncResult_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateAsyncResult_(
+								((void*)arg0), 
+								((void*)arg1), 
+								((void*)arg2), 
+								((void*)arg3)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateDXGIDeviceManager_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateDXGIDeviceManager_")]
+		public static int MFCreateDXGIDeviceManager_(
+					void* arg0, 
+					void* arg1)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateDXGIDeviceManager_(
+								((void*)arg0), 
+								((void*)arg1)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateMediaBufferWrapper_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateMediaBufferWrapper_")]
+		public static int MFCreateMediaBufferWrapper_(
+					void* arg0, 
+					int arg1, 
+					int arg2, 
+					void* arg3)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateMediaBufferWrapper_(
+								((void*)arg0), 
+								arg1, 
+								arg2, 
+								((void*)arg3)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFUnlockPlatform_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFUnlockPlatform_")]
+		public static int MFUnlockPlatform_()
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFUnlockPlatform_();
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateEventQueue_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateEventQueue_")]
+		public static int MFCreateEventQueue_(void* arg0)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateEventQueue_(((void*)arg0));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateSample_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateSample_")]
+		public static int MFCreateSample_(void* arg0)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateSample_(((void*)arg0));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateCollection_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateCollection_")]
+		public static int MFCreateCollection_(void* arg0)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateCollection_(((void*)arg0));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateVideoSampleAllocatorEx_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateVideoSampleAllocatorEx_")]
+		public static int MFCreateVideoSampleAllocatorEx_(
+					void* arg0, 
+					void* arg1)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateVideoSampleAllocatorEx_(
+								((void*)arg0), 
+								((void*)arg1)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFInvokeCallback_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFInvokeCallback_")]
+		public static int MFInvokeCallback_(void* arg0)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFInvokeCallback_(((void*)arg0));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFShutdown_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFShutdown_")]
+		public static int MFShutdown_()
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFShutdown_();
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFLockDXGIDeviceManager_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFLockDXGIDeviceManager_")]
+		public static int MFLockDXGIDeviceManager_(
+					void* arg0, 
+					void* arg1)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFLockDXGIDeviceManager_(
+								((void*)arg0), 
+								((void*)arg1)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFWrapMediaType_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFWrapMediaType_")]
+		public static int MFWrapMediaType_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFWrapMediaType_(
+								((void*)arg0), 
+								((void*)arg1), 
+								((void*)arg2), 
+								((void*)arg3)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateAlignedMemoryBuffer_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateAlignedMemoryBuffer_")]
+		public static int MFCreateAlignedMemoryBuffer_(
+					int arg0, 
+					int arg1, 
+					void* arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateAlignedMemoryBuffer_(
+								arg0, 
+								arg1, 
+								((void*)arg2)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFUnlockWorkQueue_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFUnlockWorkQueue_")]
+		public static int MFUnlockWorkQueue_(int arg0)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFUnlockWorkQueue_(arg0);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFLockPlatform_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFLockPlatform_")]
+		public static int MFLockPlatform_()
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFLockPlatform_();
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateMemoryBuffer_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateMemoryBuffer_")]
+		public static int MFCreateMemoryBuffer_(
+					int arg0, 
+					void* arg1)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateMemoryBuffer_(
+								arg0, 
+								((void*)arg1)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFGetAttributesAsBlob_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFGetAttributesAsBlob_")]
+		public static int MFGetAttributesAsBlob_(
+					void* arg0, 
+					void* arg1, 
+					int arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFGetAttributesAsBlob_(
+								((void*)arg0), 
+								((void*)arg1), 
+								arg2
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateMediaBufferFromMediaType_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] long____int64, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateMediaBufferFromMediaType_")]
+		public static int MFCreateMediaBufferFromMediaType_(
+					void* arg0, 
+					long arg1, 
+					int arg2, 
+					int arg3, 
+					void* arg4)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateMediaBufferFromMediaType_(
+								((void*)arg0), 
+								arg1, 
+								arg2, 
+								arg3, 
+								((void*)arg4)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateMediaEvent_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableStructMarshaller] SharpDX_Result__SharpDX__SharpDX__Result__SharpDX, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateMediaEvent_")]
+		public static int MFCreateMediaEvent_(
+					int arg0, 
+					void* arg1, 
+					global::SharpDX.Result__SharpDX arg2, 
+					void* arg3, 
+					void* arg4)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateMediaEvent_(
+								arg0, 
+								((void*)arg1), 
+								arg2, 
+								((void*)arg3), 
+								((void*)arg4)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreate2DMediaBuffer_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableStructMarshaller] SharpDX_Mathematics_Interop_RawBool__SharpDX__SharpDX_Mathematics_Interop__RawBool__SharpDX, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreate2DMediaBuffer_")]
+		public static int MFCreate2DMediaBuffer_(
+					int arg0, 
+					int arg1, 
+					int arg2, 
+					global::SharpDX.Mathematics.Interop.RawBool__SharpDX arg3, 
+					void* arg4)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreate2DMediaBuffer_(
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3, 
+								((void*)arg4)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateMediaType_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateMediaType_")]
+		public static int MFCreateMediaType_(void* arg0)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateMediaType_(((void*)arg0));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFPutWorkItemEx2_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFPutWorkItemEx2_")]
+		public static int MFPutWorkItemEx2_(
+					int arg0, 
+					int arg1, 
+					void* arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFPutWorkItemEx2_(
+								arg0, 
+								arg1, 
+								((void*)arg2)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreatePropertiesFromMediaType_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreatePropertiesFromMediaType_")]
+		public static int MFCreatePropertiesFromMediaType_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreatePropertiesFromMediaType_(
+								((void*)arg0), 
+								((void*)arg1), 
+								((void*)arg2)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateMediaTypeFromProperties_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateMediaTypeFromProperties_")]
+		public static int MFCreateMediaTypeFromProperties_(
+					void* arg0, 
+					void* arg1)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateMediaTypeFromProperties_(
+								((void*)arg0), 
+								((void*)arg1)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateTrackedSample_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateTrackedSample_")]
+		public static int MFCreateTrackedSample_(void* arg0)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateTrackedSample_(((void*)arg0));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreatePresentationDescriptor_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreatePresentationDescriptor_")]
+		public static int MFCreatePresentationDescriptor_(
+					int arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreatePresentationDescriptor_(
+								arg0, 
+								((void*)arg1), 
+								((void*)arg2)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateMFByteStreamOnStreamEx_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateMFByteStreamOnStreamEx_")]
+		public static int MFCreateMFByteStreamOnStreamEx_(
+					void* arg0, 
+					void* arg1)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateMFByteStreamOnStreamEx_(
+								((void*)arg0), 
+								((void*)arg1)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateSourceResolver_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateSourceResolver_")]
+		public static int MFCreateSourceResolver_(void* arg0)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateSourceResolver_(((void*)arg0));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateStreamDescriptor_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateStreamDescriptor_")]
+		public static int MFCreateStreamDescriptor_(
+					int arg0, 
+					int arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateStreamDescriptor_(
+								arg0, 
+								arg1, 
+								((void*)arg2), 
+								((void*)arg3)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFGetSystemTime_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] long____int64, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFGetSystemTime_")]
+		public static long MFGetSystemTime_()
+		{
+			// Setup
+			long unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFGetSystemTime_();
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateStreamOnMFByteStreamEx_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateStreamOnMFByteStreamEx_")]
+		public static int MFCreateStreamOnMFByteStreamEx_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFCreateStreamOnMFByteStreamEx_(
+								((void*)arg0), 
+								((void*)arg1), 
+								((void*)arg2)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFDeserializeAttributesFromStream_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFDeserializeAttributesFromStream_")]
+		public static int MFDeserializeAttributesFromStream_(
+					void* arg0, 
+					int arg1, 
+					void* arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFDeserializeAttributesFromStream_(
+								((void*)arg0), 
+								arg1, 
+								((void*)arg2)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFSerializeAttributesToStream_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFSerializeAttributesToStream_")]
+		public static int MFSerializeAttributesToStream_(
+					void* arg0, 
+					int arg1, 
+					void* arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfplat_dll_PInvokes.MFSerializeAttributesToStream_(
+								((void*)arg0), 
+								arg1, 
+								((void*)arg2)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+	}
+
+	/// <summary>
+	/// P/Invoke class for module 'mf.dll'
+	/// </summary>
+	public unsafe static partial class mf_dll
+	{
+		// Signature, MFLoadSignedLibrary_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFLoadSignedLibrary_")]
+		public static int MFLoadSignedLibrary_(
+					void* arg0, 
+					void* arg1)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mf_dll_PInvokes.MFLoadSignedLibrary_(
+								((void*)arg0), 
+								((void*)arg1)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFGetService_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFGetService_")]
+		public static int MFGetService_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mf_dll_PInvokes.MFGetService_(
+								((void*)arg0), 
+								((void*)arg1), 
+								((void*)arg2), 
+								((void*)arg3)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateProtectedEnvironmentAccess_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateProtectedEnvironmentAccess_")]
+		public static int MFCreateProtectedEnvironmentAccess_(void* arg0)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mf_dll_PInvokes.MFCreateProtectedEnvironmentAccess_(((void*)arg0));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateAggregateSource_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateAggregateSource_")]
+		public static int MFCreateAggregateSource_(
+					void* arg0, 
+					void* arg1)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mf_dll_PInvokes.MFCreateAggregateSource_(
+								((void*)arg0), 
+								((void*)arg1)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFGetSystemId_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFGetSystemId_")]
+		public static int MFGetSystemId_(void* arg0)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mf_dll_PInvokes.MFGetSystemId_(((void*)arg0));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFGetLocalId_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFGetLocalId_")]
+		public static int MFGetLocalId_(
+					void* arg0, 
+					int arg1, 
+					void* arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mf_dll_PInvokes.MFGetLocalId_(
+								((void*)arg0), 
+								arg1, 
+								((void*)arg2)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+	}
+
+	/// <summary>
+	/// P/Invoke class for module 'mfreadwrite.dll'
+	/// </summary>
+	public unsafe static partial class mfreadwrite_dll
+	{
+		// Signature, MFCreateSourceReaderFromByteStream_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateSourceReaderFromByteStream_")]
+		public static int MFCreateSourceReaderFromByteStream_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfreadwrite_dll_PInvokes.MFCreateSourceReaderFromByteStream_(
+								((void*)arg0), 
+								((void*)arg1), 
+								((void*)arg2)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateSourceReaderFromURL_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateSourceReaderFromURL_")]
+		public static int MFCreateSourceReaderFromURL_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfreadwrite_dll_PInvokes.MFCreateSourceReaderFromURL_(
+								((void*)arg0), 
+								((void*)arg1), 
+								((void*)arg2)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateSourceReaderFromMediaSource_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateSourceReaderFromMediaSource_")]
+		public static int MFCreateSourceReaderFromMediaSource_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfreadwrite_dll_PInvokes.MFCreateSourceReaderFromMediaSource_(
+								((void*)arg0), 
+								((void*)arg1), 
+								((void*)arg2)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateSinkWriterFromURL_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateSinkWriterFromURL_")]
+		public static int MFCreateSinkWriterFromURL_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfreadwrite_dll_PInvokes.MFCreateSinkWriterFromURL_(
+								((void*)arg0), 
+								((void*)arg1), 
+								((void*)arg2), 
+								((void*)arg3)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MFCreateSinkWriterFromMediaSink_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.MediaFoundation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.MediaFoundation.MediaFactory", "MFCreateSinkWriterFromMediaSink_")]
+		public static int MFCreateSinkWriterFromMediaSink_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.mfreadwrite_dll_PInvokes.MFCreateSinkWriterFromMediaSink_(
+								((void*)arg0), 
+								((void*)arg1), 
+								((void*)arg2)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+	}
+
+	/// <summary>
+	/// P/Invoke class for module 'xaudio2_9.dll'
+	/// </summary>
+	public unsafe static partial class xaudio2_9_dll
+	{
+		// Signature, XAudio2Create_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.XAudio2, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.XAudio2.XAudio2Functions", "XAudio2Create_")]
+		public static int XAudio2Create_(
+					void* arg0, 
+					int arg1, 
+					int arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.xaudio2_9_dll_PInvokes.XAudio2Create_(
+								((void*)arg0), 
+								arg1, 
+								arg2
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, CreateAudioReverb_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.XAudio2, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.XAudio2.XAudio2Functions", "CreateAudioReverb_")]
+		public static int CreateAudioReverb_(void* arg0)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.xaudio2_9_dll_PInvokes.CreateAudioReverb_(((void*)arg0));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, CreateAudioVolumeMeter_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.XAudio2, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.XAudio2.XAudio2Functions", "CreateAudioVolumeMeter_")]
+		public static int CreateAudioVolumeMeter_(void* arg0)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.xaudio2_9_dll_PInvokes.CreateAudioVolumeMeter_(((void*)arg0));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, X3DAudioCalculate_, [fwd] [return] [Mcg.CodeGen.VoidReturnMarshaller] void__void, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.XAudio2, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.X3DAudio.X3DAudio", "X3DAudioCalculate_")]
+		public static void X3DAudioCalculate_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					int arg3, 
+					void* arg4)
+		{
+			// Marshalling
+			// Call to native method
+			global::__Interop.xaudio2_9_dll_PInvokes.X3DAudioCalculate_(
+								((void*)arg0), 
+								((void*)arg1), 
+								((void*)arg2), 
+								arg3, 
+								((void*)arg4)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+		}
+
+		// Signature, X3DAudioInitialize_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] float__float, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.XAudio2, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.X3DAudio.X3DAudio", "X3DAudioInitialize_")]
+		public static int X3DAudioInitialize_(
+					int arg0, 
+					float arg1, 
+					void* arg2)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.xaudio2_9_dll_PInvokes.X3DAudioInitialize_(
+								arg0, 
+								arg1, 
+								((void*)arg2)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, CreateFX_, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] void___ptrvoid *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("SharpDX.XAudio2, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1", "SharpDX.XAPO.Fx.XAPOFx", "CreateFX_")]
+		public static int CreateFX_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					int arg3)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.xaudio2_9_dll_PInvokes.CreateFX_(
+								((void*)arg0), 
+								((void*)arg1), 
+								((void*)arg2), 
+								arg3
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
+		}
+	}
+
 	/// <summary>
 	/// P/Invoke class for module '[MRT]'
 	/// </summary>
@@ -236,71 +2416,6 @@ namespace __Interop
 	}
 
 	/// <summary>
-	/// P/Invoke class for module 'api-ms-win-core-localization-l1-2-1.dll'
-	/// </summary>
-	public unsafe static partial class api_ms_win_core_localization_l1_2_1_dll
-	{
-		// Signature, IsValidLocaleName, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] char___ptrwchar_t *, 
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.WinRTInterop.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "mincore+mincore_PInvokes", "IsValidLocaleName")]
-		public static int IsValidLocaleName(char* lpLocaleName)
-		{
-			// Setup
-			int unsafe___value;
-			// Marshalling
-			// Call to native method
-			unsafe___value = global::__Interop.api_ms_win_core_localization_l1_2_1_dll_PInvokes.IsValidLocaleName(((ushort*)lpLocaleName));
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			// Return
-			return unsafe___value;
-		}
-
-		// Signature, ResolveLocaleName, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] char___ptrwchar_t *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] char___ptrwchar_t *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.WinRTInterop.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "mincore+mincore_PInvokes", "ResolveLocaleName")]
-		public static int ResolveLocaleName(
-					char* lpNameToResolve, 
-					char* lpLocaleName, 
-					int cchLocaleName)
-		{
-			// Setup
-			int unsafe___value;
-			// Marshalling
-			// Call to native method
-			unsafe___value = global::__Interop.api_ms_win_core_localization_l1_2_1_dll_PInvokes.ResolveLocaleName(
-								((ushort*)lpNameToResolve), 
-								((ushort*)lpLocaleName), 
-								cchLocaleName
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			// Return
-			return unsafe___value;
-		}
-
-		// Signature, GetCPInfoExW, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] Interop_mincore_CPINFOEXW__System_Text_Encoding_CodePages___ptr__Interop_mincore_CPINFOEXW__System_Text_Encoding_CodePages *, 
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Text.Encoding.CodePages, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "GetCPInfoExW")]
-		public static int GetCPInfoExW(
-					uint CodePage, 
-					uint dwFlags, 
-					global::Interop_mincore_CPINFOEXW__System_Text_Encoding_CodePages* lpCPInfoEx)
-		{
-			// Setup
-			int unsafe___value;
-			// Marshalling
-			// Call to native method
-			unsafe___value = global::__Interop.api_ms_win_core_localization_l1_2_1_dll_PInvokes.GetCPInfoExW(
-								CodePage, 
-								dwFlags, 
-								((global::Interop_mincore_CPINFOEXW__System_Text_Encoding_CodePages*)lpCPInfoEx)
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			// Return
-			return unsafe___value;
-		}
-	}
-
-	/// <summary>
 	/// P/Invoke class for module 'api-ms-win-core-com-l1-1-0.dll'
 	/// </summary>
 	public unsafe static partial class api_ms_win_core_com_l1_1_0_dll
@@ -388,6 +2503,696 @@ namespace __Interop
 		}
 	}
 
+	public unsafe static partial class d2d1_dll_PInvokes
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("d2d1.dll", EntryPoint="#4", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static global::SharpDX.Mathematics.Interop.RawBool__SharpDX D2D1IsMatrixInvertible_(void* arg0);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("d2d1.dll", EntryPoint="#5", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static global::SharpDX.Mathematics.Interop.RawBool__SharpDX D2D1InvertMatrix_(void* arg0);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("d2d1.dll", EntryPoint="#3", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static void D2D1MakeSkewMatrix_(
+					float arg0, 
+					float arg1, 
+					global::SharpDX.Mathematics.Interop.RawVector2__SharpDX arg2, 
+					void* arg3);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("d2d1.dll", EntryPoint="#1", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int D2D1CreateFactory_(
+					int arg0, 
+					void* arg1, 
+					void* arg2, 
+					void* arg3);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("d2d1.dll", EntryPoint="#2", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static void D2D1MakeRotateMatrix_(
+					float arg0, 
+					global::SharpDX.Mathematics.Interop.RawVector2__SharpDX arg1, 
+					void* arg2);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("d2d1.dll", EntryPoint="#10", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static float D2D1Tan_(float arg0);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("d2d1.dll", EntryPoint="#11", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static float D2D1Vec3Length_(
+					float arg0, 
+					float arg1, 
+					float arg2);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("d2d1.dll", EntryPoint="#9", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static void D2D1SinCos_(
+					float arg0, 
+					void* arg1, 
+					void* arg2);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("d2d1.dll", EntryPoint="#7", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int D2D1CreateDevice_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("d2d1.dll", EntryPoint="#6", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static void* D2D1ConvertColorSpace_(
+					void* arg0, 
+					int arg1, 
+					int arg2, 
+					void* arg3);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("d2d1.dll", EntryPoint="#8", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int D2D1CreateDeviceContext_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("d2d1.dll", EntryPoint="#12", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static float D2D1ComputeMaximumScaleFactor_(void* arg0);
+	}
+
+	public unsafe static partial class dwrite_dll_PInvokes
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("dwrite.dll", EntryPoint="DWriteCreateFactory", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int DWriteCreateFactory_(
+					int arg0, 
+					void* arg1, 
+					void* arg2);
+	}
+
+	public unsafe static partial class d3d11_dll_PInvokes
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("d3d11.dll", EntryPoint="D3D11CreateDevice", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int D3D11CreateDevice_(
+					void* arg0, 
+					int arg1, 
+					void* arg2, 
+					int arg3, 
+					void* arg4, 
+					int arg5, 
+					int arg6, 
+					void* arg7, 
+					void* arg8, 
+					void* arg9);
+	}
+
+	public unsafe static partial class api_ms_win_core_localization_l1_2_1_dll_PInvokes
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-localization-l1-2-1.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static uint FormatMessageW(
+					int dwFlags, 
+					global::System.IntPtr lpSource, 
+					int dwMessageId, 
+					int dwLanguageId, 
+					global::System.IntPtr* lpBuffer, 
+					int nSize, 
+					global::System.IntPtr Arguments);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-localization-l1-2-1.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int IsValidLocaleName(ushort* lpLocaleName);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-localization-l1-2-1.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int ResolveLocaleName(
+					ushort* lpNameToResolve, 
+					ushort* lpLocaleName, 
+					int cchLocaleName);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-localization-l1-2-1.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int GetCPInfoExW(
+					uint CodePage, 
+					uint dwFlags, 
+					global::Interop_mincore_CPINFOEXW__System_Text_Encoding_CodePages* lpCPInfoEx);
+	}
+
+	public unsafe static partial class api_ms_win_core_file_l1_2_1_dll_PInvokes
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-file-l1-2-1.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int ReadFile(
+					global::System.IntPtr fileHandle, 
+					global::System.IntPtr buffer, 
+					int numberOfBytesToRead, 
+					int* numberOfBytesRead, 
+					global::System.IntPtr overlapped);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-file-l1-2-1.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int FlushFileBuffers(global::System.IntPtr hFile);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-file-l1-2-1.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int WriteFile(
+					global::System.IntPtr fileHandle, 
+					global::System.IntPtr buffer, 
+					int numberOfBytesToRead, 
+					int* numberOfBytesRead, 
+					global::System.IntPtr overlapped);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-file-l1-2-1.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int SetFilePointerEx(
+					global::System.IntPtr handle, 
+					long distanceToMove, 
+					long* distanceToMoveHigh, 
+					global::System.IO.SeekOrigin__System_IO seekOrigin);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-file-l1-2-1.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int SetEndOfFile(global::System.IntPtr handle);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-file-l1-2-1.dll", EntryPoint="GetFileAttributesExW", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int GetFileAttributesEx(
+					ushort* name, 
+					int fileInfoLevel, 
+					global::SharpDX.IO.NativeFile_WIN32_FILE_ATTRIBUTE_DATA__SharpDX* lpFileInformation);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-file-l1-2-1.dll", EntryPoint="CreateFile2", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static global::System.IntPtr Create(
+					ushort* fileName, 
+					global::SharpDX.IO.NativeFileAccess__SharpDX desiredAccess, 
+					global::SharpDX.IO.NativeFileShare__SharpDX shareMode, 
+					global::SharpDX.IO.NativeFileMode__SharpDX mode, 
+					global::System.IntPtr extendedParameters);
+	}
+
+	public unsafe static partial class api_ms_win_core_file_l2_1_1_dll_PInvokes
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-file-l2-1-1.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int GetFileInformationByHandleEx(
+					global::System.IntPtr handle, 
+					global::SharpDX.IO.NativeFile_FILE_INFO_BY_HANDLE_CLASS__SharpDX FileInformationClass, 
+					global::System.IntPtr lpFileInformation, 
+					int dwBufferSize);
+	}
+
+	public unsafe static partial class api_ms_win_core_com_l1_1_1_dll_PInvokes
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-com-l1-1-1.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static global::SharpDX.Result__SharpDX CoCreateInstanceFromApp(
+					global::System.Guid* rclsid, 
+					global::System.IntPtr pUnkOuter, 
+					global::SharpDX.Utilities_CLSCTX__SharpDX dwClsContext, 
+					global::System.IntPtr reserved, 
+					int countMultiQuery, 
+					global::SharpDX.Utilities_MultiQueryInterface__SharpDX* query);
+	}
+
+	public unsafe static partial class api_ms_win_core_handle_l1_1_0_dll_PInvokes
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-handle-l1-1-0.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int CloseHandle(global::System.IntPtr handle);
+	}
+
+	public unsafe static partial class api_ms_win_core_libraryloader_l1_2_0_dll_PInvokes
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-libraryloader-l1-2-0.dll", EntryPoint="GetProcAddress", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static global::System.IntPtr GetProcAddress_(
+					global::System.IntPtr hModule, 
+					byte* procName);
+	}
+
+	public unsafe static partial class dxgi_dll_PInvokes
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("dxgi.dll", EntryPoint="CreateDXGIFactory1", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int CreateDXGIFactory1_(
+					void* arg0, 
+					void* arg1);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("dxgi.dll", EntryPoint="CreateDXGIFactory2", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int CreateDXGIFactory2_(
+					int arg0, 
+					void* arg1, 
+					void* arg2);
+	}
+
+	public unsafe static partial class mfplat_dll_PInvokes
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFStartup", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFStartup_(
+					int arg0, 
+					int arg1);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateMediaExtensionActivate", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateMediaExtensionActivate_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					void* arg3);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCancelWorkItem", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCancelWorkItem_(long arg0);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateAttributes", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateAttributes_(
+					void* arg0, 
+					int arg1);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateWaveFormatExFromMFMediaType", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateWaveFormatExFromMFMediaType_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					int arg3);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFPutWaitingWorkItem", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFPutWaitingWorkItem_(
+					void* arg0, 
+					int arg1, 
+					void* arg2, 
+					void* arg3);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateDXGISurfaceBuffer", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateDXGISurfaceBuffer_(
+					void* arg0, 
+					void* arg1, 
+					int arg2, 
+					global::SharpDX.Mathematics.Interop.RawBool__SharpDX arg3, 
+					void* arg4);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFUnwrapMediaType", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFUnwrapMediaType_(
+					void* arg0, 
+					void* arg1);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFllMulDiv", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static long MFllMulDiv_(
+					long arg0, 
+					long arg1, 
+					long arg2, 
+					long arg3);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCopyImage", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCopyImage_(
+					void* arg0, 
+					int arg1, 
+					void* arg2, 
+					int arg3, 
+					int arg4, 
+					int arg5);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFPutWorkItem2", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFPutWorkItem2_(
+					int arg0, 
+					int arg1, 
+					void* arg2, 
+					void* arg3);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFLockWorkQueue", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFLockWorkQueue_(int arg0);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFInitMediaTypeFromWaveFormatEx", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFInitMediaTypeFromWaveFormatEx_(
+					void* arg0, 
+					void* arg1, 
+					int arg2);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFLockSharedWorkQueue", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFLockSharedWorkQueue_(
+					void* arg0, 
+					int arg1, 
+					void* arg2, 
+					void* arg3);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFGetAttributesAsBlobSize", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFGetAttributesAsBlobSize_(
+					void* arg0, 
+					void* arg1);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFAllocateSerialWorkQueue", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFAllocateSerialWorkQueue_(
+					int arg0, 
+					void* arg1);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFInitAttributesFromBlob", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFInitAttributesFromBlob_(
+					void* arg0, 
+					void* arg1, 
+					int arg2);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFUnlockDXGIDeviceManager", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFUnlockDXGIDeviceManager_();
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateAsyncResult", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateAsyncResult_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					void* arg3);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateDXGIDeviceManager", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateDXGIDeviceManager_(
+					void* arg0, 
+					void* arg1);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateMediaBufferWrapper", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateMediaBufferWrapper_(
+					void* arg0, 
+					int arg1, 
+					int arg2, 
+					void* arg3);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFUnlockPlatform", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFUnlockPlatform_();
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateEventQueue", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateEventQueue_(void* arg0);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateSample", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateSample_(void* arg0);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateCollection", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateCollection_(void* arg0);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateVideoSampleAllocatorEx", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateVideoSampleAllocatorEx_(
+					void* arg0, 
+					void* arg1);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFInvokeCallback", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFInvokeCallback_(void* arg0);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFShutdown", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFShutdown_();
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFLockDXGIDeviceManager", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFLockDXGIDeviceManager_(
+					void* arg0, 
+					void* arg1);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFWrapMediaType", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFWrapMediaType_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					void* arg3);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateAlignedMemoryBuffer", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateAlignedMemoryBuffer_(
+					int arg0, 
+					int arg1, 
+					void* arg2);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFUnlockWorkQueue", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFUnlockWorkQueue_(int arg0);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFLockPlatform", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFLockPlatform_();
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateMemoryBuffer", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateMemoryBuffer_(
+					int arg0, 
+					void* arg1);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFGetAttributesAsBlob", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFGetAttributesAsBlob_(
+					void* arg0, 
+					void* arg1, 
+					int arg2);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateMediaBufferFromMediaType", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateMediaBufferFromMediaType_(
+					void* arg0, 
+					long arg1, 
+					int arg2, 
+					int arg3, 
+					void* arg4);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateMediaEvent", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateMediaEvent_(
+					int arg0, 
+					void* arg1, 
+					global::SharpDX.Result__SharpDX arg2, 
+					void* arg3, 
+					void* arg4);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreate2DMediaBuffer", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreate2DMediaBuffer_(
+					int arg0, 
+					int arg1, 
+					int arg2, 
+					global::SharpDX.Mathematics.Interop.RawBool__SharpDX arg3, 
+					void* arg4);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateMediaType", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateMediaType_(void* arg0);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFPutWorkItemEx2", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFPutWorkItemEx2_(
+					int arg0, 
+					int arg1, 
+					void* arg2);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreatePropertiesFromMediaType", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreatePropertiesFromMediaType_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateMediaTypeFromProperties", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateMediaTypeFromProperties_(
+					void* arg0, 
+					void* arg1);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateTrackedSample", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateTrackedSample_(void* arg0);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreatePresentationDescriptor", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreatePresentationDescriptor_(
+					int arg0, 
+					void* arg1, 
+					void* arg2);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateMFByteStreamOnStreamEx", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateMFByteStreamOnStreamEx_(
+					void* arg0, 
+					void* arg1);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateSourceResolver", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateSourceResolver_(void* arg0);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateStreamDescriptor", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateStreamDescriptor_(
+					int arg0, 
+					int arg1, 
+					void* arg2, 
+					void* arg3);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFGetSystemTime", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static long MFGetSystemTime_();
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFCreateStreamOnMFByteStreamEx", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateStreamOnMFByteStreamEx_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFDeserializeAttributesFromStream", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFDeserializeAttributesFromStream_(
+					void* arg0, 
+					int arg1, 
+					void* arg2);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfplat.dll", EntryPoint="MFSerializeAttributesToStream", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFSerializeAttributesToStream_(
+					void* arg0, 
+					int arg1, 
+					void* arg2);
+	}
+
+	public unsafe static partial class mf_dll_PInvokes
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mf.dll", EntryPoint="MFLoadSignedLibrary", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFLoadSignedLibrary_(
+					void* arg0, 
+					void* arg1);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mf.dll", EntryPoint="MFGetService", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFGetService_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					void* arg3);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mf.dll", EntryPoint="MFCreateProtectedEnvironmentAccess", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateProtectedEnvironmentAccess_(void* arg0);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mf.dll", EntryPoint="MFCreateAggregateSource", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateAggregateSource_(
+					void* arg0, 
+					void* arg1);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mf.dll", EntryPoint="MFGetSystemId", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFGetSystemId_(void* arg0);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mf.dll", EntryPoint="MFGetLocalId", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFGetLocalId_(
+					void* arg0, 
+					int arg1, 
+					void* arg2);
+	}
+
+	public unsafe static partial class mfreadwrite_dll_PInvokes
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfreadwrite.dll", EntryPoint="MFCreateSourceReaderFromByteStream", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateSourceReaderFromByteStream_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfreadwrite.dll", EntryPoint="MFCreateSourceReaderFromURL", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateSourceReaderFromURL_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfreadwrite.dll", EntryPoint="MFCreateSourceReaderFromMediaSource", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateSourceReaderFromMediaSource_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfreadwrite.dll", EntryPoint="MFCreateSinkWriterFromURL", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateSinkWriterFromURL_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					void* arg3);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("mfreadwrite.dll", EntryPoint="MFCreateSinkWriterFromMediaSink", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int MFCreateSinkWriterFromMediaSink_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2);
+	}
+
+	public unsafe static partial class xaudio2_9_dll_PInvokes
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("xaudio2_9.dll", EntryPoint="#1", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int XAudio2Create_(
+					void* arg0, 
+					int arg1, 
+					int arg2);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("xaudio2_9.dll", EntryPoint="#2", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int CreateAudioReverb_(void* arg0);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("xaudio2_9.dll", EntryPoint="#3", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		public extern static int CreateAudioVolumeMeter_(void* arg0);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("xaudio2_9.dll", EntryPoint="#5", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Cdecl)]
+		public extern static void X3DAudioCalculate_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					int arg3, 
+					void* arg4);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("xaudio2_9.dll", EntryPoint="#6", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Cdecl)]
+		public extern static int X3DAudioInitialize_(
+					int arg0, 
+					float arg1, 
+					void* arg2);
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("xaudio2_9.dll", EntryPoint="#4", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Cdecl)]
+		public extern static int CreateFX_(
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					int arg3);
+	}
+
 	public unsafe static partial class _MRT__PInvokes
 	{
 		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
@@ -448,27 +3253,6 @@ namespace __Interop
 		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-winrt-l1-1-0.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int RoInitialize(uint initType);
-	}
-
-	public unsafe static partial class api_ms_win_core_localization_l1_2_1_dll_PInvokes
-	{
-		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
-		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-localization-l1-2-1.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
-		public extern static int IsValidLocaleName(ushort* lpLocaleName);
-
-		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
-		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-localization-l1-2-1.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
-		public extern static int ResolveLocaleName(
-					ushort* lpNameToResolve, 
-					ushort* lpLocaleName, 
-					int cchLocaleName);
-
-		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
-		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-localization-l1-2-1.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
-		public extern static int GetCPInfoExW(
-					uint CodePage, 
-					uint dwFlags, 
-					global::Interop_mincore_CPINFOEXW__System_Text_Encoding_CodePages* lpCPInfoEx);
 	}
 
 	public unsafe static partial class api_ms_win_core_com_l1_1_0_dll_PInvokes

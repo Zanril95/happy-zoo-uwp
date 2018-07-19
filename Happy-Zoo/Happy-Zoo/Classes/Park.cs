@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Collections;
 using Windows.System.Threading;
-
+using Windows.UI.Core;
 
 namespace Happy_Zoo
 {
@@ -45,11 +45,18 @@ namespace Happy_Zoo
         {
             ThreadPoolTimer PeriodicTimer = ThreadPoolTimer.CreatePeriodicTimer((source) =>
             {
-                calculateReputation();
-                calculateVisitors();
+                Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
+                () =>
+                {
+                    // Your UI update code goes here!
+
+                    calculateReputation();
+                    calculateVisitors();
+                }
+                );
             }, period);
         }
-
+        /*
         //pauzes all theads
         public void pauseThreads()
         {
@@ -65,7 +72,7 @@ namespace Happy_Zoo
                 paused = false;
             }
         }
-
+        */
         //returns entrancefee
         public float getEntranceFee()
         {
@@ -89,12 +96,12 @@ namespace Happy_Zoo
         {
             return currentVisitors;
         }
-        
+
         //returns the date
         public string getDate()
         {
-           string date = time.getDay() + "/" + time.getMonth() + "/" + time.getYear();
-           return date;
+            string date = time.getDay() + "/" + time.getMonth() + "/" + time.getYear();
+            return date;
         }
 
         //adds a given amount of coins
@@ -186,12 +193,12 @@ namespace Happy_Zoo
                             currentBuilding.increaseLevel();
                             return true;
                         }
-                    }   
+                    }
                 }
             }
             return false;
         }
-        
+
         //adds an animal to an animalhouse by inserted name
         public void addAnimal(String name)
         {
@@ -269,7 +276,7 @@ namespace Happy_Zoo
             // y == visitors per uur        x == entranceFee      z == totalReputation
             // y = 5000 - 3.6 * (x / 10 * 100) * (2 - z * 0.0016)
             double visitorsAHour = 5000 - 3.6 * (entranceFee / 10 * 100) * (2 - totalReputation * 0.16);
-            double visitorsAMin = (visitorsAHour / 60)/6;
+            double visitorsAMin = (visitorsAHour / 60) / 6;
             double restantTemp = visitorsAMin % 1;
             double visitorsAMinRound = visitorsAMin - restantTemp;
             restant += restantTemp;
@@ -278,15 +285,15 @@ namespace Happy_Zoo
             restant = restant - restantTemp;
             visitorsAMinRound += restant;
             restant = restantTemp;
-           
-            Console.WriteLine("vitH = " +visitorsAHour + "    visM = " + visitorsAMin + "    visMR = " + visitorsAMinRound + "    res = " + restant +"    resT = " + restantTemp);
-            
+
+            Console.WriteLine("vitH = " + visitorsAHour + "    visM = " + visitorsAMin + "    visMR = " + visitorsAMinRound + "    res = " + restant + "    resT = " + restantTemp);
+
 
             for (int a = 0; a < visitorsAMinRound; a++)
             {
-                coins  += entranceFee;
+                coins += entranceFee;
                 visitors.Add(new Visitor(9));
-                
+
             }
             ArrayList vistorsToRemove = new ArrayList();
             foreach (Visitor visitor in visitors)
@@ -301,7 +308,7 @@ namespace Happy_Zoo
             Object[] vistorsToRemoveS = vistorsToRemove.ToArray();
             for (int a = 0; a < vistorsToRemove.Count; a++)
             {
-               
+
                 visitors.RemoveAt(Convert.ToInt32(vistorsToRemoveS[a]));
             }
             currentVisitors = visitors.Count;

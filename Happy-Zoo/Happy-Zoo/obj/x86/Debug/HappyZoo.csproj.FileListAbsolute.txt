@@ -226,3 +226,11 @@ C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\obj\x86\Debug\qualifi
 C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Debug\SharpDX.DXGI.dll
+C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Debug\SharpDX.dll
+C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\obj\x86\Debug\HappyZoo.csprojAssemblyReference.cache
+C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\obj\x86\Debug\MonoGame.Framework.pri.xml

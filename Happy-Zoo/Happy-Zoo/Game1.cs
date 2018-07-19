@@ -22,6 +22,7 @@ namespace Happy_Zoo
         SpriteBatch spriteBatch;
         
         private SpriteFont font;
+        private Song song;
 
         private MouseState oldSate;
         private int mouseX, mouseY;
@@ -46,6 +47,7 @@ namespace Happy_Zoo
 
             graphics.PreferredBackBufferWidth = 1024;
             graphics.PreferredBackBufferHeight = 768;
+            graphics.ApplyChanges();
 
             Content.RootDirectory = "Content";
             this.IsMouseVisible = true;
@@ -79,7 +81,7 @@ namespace Happy_Zoo
             font = Content.Load<SpriteFont>("Fonts/default");
 
             // load song
-            //song = Content.Load<Song>("Music/Pixel-Puppies");
+            song = Content.Load<Song>("Music/Pixel-Puppies");
             MediaPlayer.Play(song);
 
             // loop the song

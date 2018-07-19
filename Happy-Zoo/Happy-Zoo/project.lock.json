@@ -337,6 +337,27 @@
           "lib/portable-net45+win8+wpa81/MonoGame.Extended.dll": {}
         }
       },
+      "MonoGame.Framework.WindowsUniversal/3.6.0.1625": {
+        "type": "package",
+        "compile": {
+          "lib/netcore/MonoGame.Framework.dll": {},
+          "lib/netcore/SharpDX.DXGI.dll": {},
+          "lib/netcore/SharpDX.Direct2D1.dll": {},
+          "lib/netcore/SharpDX.Direct3D11.dll": {},
+          "lib/netcore/SharpDX.MediaFoundation.dll": {},
+          "lib/netcore/SharpDX.XAudio2.dll": {},
+          "lib/netcore/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/netcore/MonoGame.Framework.dll": {},
+          "lib/netcore/SharpDX.DXGI.dll": {},
+          "lib/netcore/SharpDX.Direct2D1.dll": {},
+          "lib/netcore/SharpDX.Direct3D11.dll": {},
+          "lib/netcore/SharpDX.MediaFoundation.dll": {},
+          "lib/netcore/SharpDX.XAudio2.dll": {},
+          "lib/netcore/SharpDX.dll": {}
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -2749,6 +2770,27 @@
         },
         "runtime": {
           "lib/portable-net45+win8+wpa81/MonoGame.Extended.dll": {}
+        }
+      },
+      "MonoGame.Framework.WindowsUniversal/3.6.0.1625": {
+        "type": "package",
+        "compile": {
+          "lib/netcore/MonoGame.Framework.dll": {},
+          "lib/netcore/SharpDX.DXGI.dll": {},
+          "lib/netcore/SharpDX.Direct2D1.dll": {},
+          "lib/netcore/SharpDX.Direct3D11.dll": {},
+          "lib/netcore/SharpDX.MediaFoundation.dll": {},
+          "lib/netcore/SharpDX.XAudio2.dll": {},
+          "lib/netcore/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/netcore/MonoGame.Framework.dll": {},
+          "lib/netcore/SharpDX.DXGI.dll": {},
+          "lib/netcore/SharpDX.Direct2D1.dll": {},
+          "lib/netcore/SharpDX.Direct3D11.dll": {},
+          "lib/netcore/SharpDX.MediaFoundation.dll": {},
+          "lib/netcore/SharpDX.XAudio2.dll": {},
+          "lib/netcore/SharpDX.dll": {}
         }
       },
       "NETStandard.Library/1.6.1": {
@@ -5252,6 +5294,27 @@
         },
         "runtime": {
           "lib/portable-net45+win8+wpa81/MonoGame.Extended.dll": {}
+        }
+      },
+      "MonoGame.Framework.WindowsUniversal/3.6.0.1625": {
+        "type": "package",
+        "compile": {
+          "lib/netcore/MonoGame.Framework.dll": {},
+          "lib/netcore/SharpDX.DXGI.dll": {},
+          "lib/netcore/SharpDX.Direct2D1.dll": {},
+          "lib/netcore/SharpDX.Direct3D11.dll": {},
+          "lib/netcore/SharpDX.MediaFoundation.dll": {},
+          "lib/netcore/SharpDX.XAudio2.dll": {},
+          "lib/netcore/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/netcore/MonoGame.Framework.dll": {},
+          "lib/netcore/SharpDX.DXGI.dll": {},
+          "lib/netcore/SharpDX.Direct2D1.dll": {},
+          "lib/netcore/SharpDX.Direct3D11.dll": {},
+          "lib/netcore/SharpDX.MediaFoundation.dll": {},
+          "lib/netcore/SharpDX.XAudio2.dll": {},
+          "lib/netcore/SharpDX.dll": {}
         }
       },
       "NETStandard.Library/1.6.1": {
@@ -7794,6 +7857,27 @@
           "lib/portable-net45+win8+wpa81/MonoGame.Extended.dll": {}
         }
       },
+      "MonoGame.Framework.WindowsUniversal/3.6.0.1625": {
+        "type": "package",
+        "compile": {
+          "lib/netcore/MonoGame.Framework.dll": {},
+          "lib/netcore/SharpDX.DXGI.dll": {},
+          "lib/netcore/SharpDX.Direct2D1.dll": {},
+          "lib/netcore/SharpDX.Direct3D11.dll": {},
+          "lib/netcore/SharpDX.MediaFoundation.dll": {},
+          "lib/netcore/SharpDX.XAudio2.dll": {},
+          "lib/netcore/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/netcore/MonoGame.Framework.dll": {},
+          "lib/netcore/SharpDX.DXGI.dll": {},
+          "lib/netcore/SharpDX.Direct2D1.dll": {},
+          "lib/netcore/SharpDX.Direct3D11.dll": {},
+          "lib/netcore/SharpDX.MediaFoundation.dll": {},
+          "lib/netcore/SharpDX.XAudio2.dll": {},
+          "lib/netcore/SharpDX.dll": {}
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -10304,6 +10388,27 @@
         },
         "runtime": {
           "lib/portable-net45+win8+wpa81/MonoGame.Extended.dll": {}
+        }
+      },
+      "MonoGame.Framework.WindowsUniversal/3.6.0.1625": {
+        "type": "package",
+        "compile": {
+          "lib/netcore/MonoGame.Framework.dll": {},
+          "lib/netcore/SharpDX.DXGI.dll": {},
+          "lib/netcore/SharpDX.Direct2D1.dll": {},
+          "lib/netcore/SharpDX.Direct3D11.dll": {},
+          "lib/netcore/SharpDX.MediaFoundation.dll": {},
+          "lib/netcore/SharpDX.XAudio2.dll": {},
+          "lib/netcore/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/netcore/MonoGame.Framework.dll": {},
+          "lib/netcore/SharpDX.DXGI.dll": {},
+          "lib/netcore/SharpDX.Direct2D1.dll": {},
+          "lib/netcore/SharpDX.Direct3D11.dll": {},
+          "lib/netcore/SharpDX.MediaFoundation.dll": {},
+          "lib/netcore/SharpDX.XAudio2.dll": {},
+          "lib/netcore/SharpDX.dll": {}
         }
       },
       "NETStandard.Library/1.6.1": {
@@ -12852,6 +12957,27 @@
           "lib/portable-net45+win8+wpa81/MonoGame.Extended.dll": {}
         }
       },
+      "MonoGame.Framework.WindowsUniversal/3.6.0.1625": {
+        "type": "package",
+        "compile": {
+          "lib/netcore/MonoGame.Framework.dll": {},
+          "lib/netcore/SharpDX.DXGI.dll": {},
+          "lib/netcore/SharpDX.Direct2D1.dll": {},
+          "lib/netcore/SharpDX.Direct3D11.dll": {},
+          "lib/netcore/SharpDX.MediaFoundation.dll": {},
+          "lib/netcore/SharpDX.XAudio2.dll": {},
+          "lib/netcore/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/netcore/MonoGame.Framework.dll": {},
+          "lib/netcore/SharpDX.DXGI.dll": {},
+          "lib/netcore/SharpDX.Direct2D1.dll": {},
+          "lib/netcore/SharpDX.Direct3D11.dll": {},
+          "lib/netcore/SharpDX.MediaFoundation.dll": {},
+          "lib/netcore/SharpDX.XAudio2.dll": {},
+          "lib/netcore/SharpDX.dll": {}
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -15362,6 +15488,27 @@
         },
         "runtime": {
           "lib/portable-net45+win8+wpa81/MonoGame.Extended.dll": {}
+        }
+      },
+      "MonoGame.Framework.WindowsUniversal/3.6.0.1625": {
+        "type": "package",
+        "compile": {
+          "lib/netcore/MonoGame.Framework.dll": {},
+          "lib/netcore/SharpDX.DXGI.dll": {},
+          "lib/netcore/SharpDX.Direct2D1.dll": {},
+          "lib/netcore/SharpDX.Direct3D11.dll": {},
+          "lib/netcore/SharpDX.MediaFoundation.dll": {},
+          "lib/netcore/SharpDX.XAudio2.dll": {},
+          "lib/netcore/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/netcore/MonoGame.Framework.dll": {},
+          "lib/netcore/SharpDX.DXGI.dll": {},
+          "lib/netcore/SharpDX.Direct2D1.dll": {},
+          "lib/netcore/SharpDX.Direct3D11.dll": {},
+          "lib/netcore/SharpDX.MediaFoundation.dll": {},
+          "lib/netcore/SharpDX.XAudio2.dll": {},
+          "lib/netcore/SharpDX.dll": {}
         }
       },
       "NETStandard.Library/1.6.1": {
@@ -20305,6 +20452,27 @@
         "lib/portable-net45+win8+wpa81/MonoGame.Extended.pdb",
         "monogame.extended.1.1.0.nupkg.sha512",
         "monogame.extended.nuspec",
+        "readme.txt"
+      ]
+    },
+    "MonoGame.Framework.WindowsUniversal/3.6.0.1625": {
+      "sha512": "VtnQj60vkQkyX9+kZxq/9vtmE4+V/J4IP80KQjdzS0CIh01GWvwTLnUsk6pAJHHjgCvy46+SFMGgJiCySMO0GA==",
+      "type": "package",
+      "path": "monogame.framework.windowsuniversal/3.6.0.1625",
+      "files": [
+        "lib/netcore/MonoGame.Framework.dll",
+        "lib/netcore/MonoGame.Framework.pri",
+        "lib/netcore/MonoGame.Framework.xml",
+        "lib/netcore/MonoGame.Framework/MonoGame.Framework.xr.xml",
+        "lib/netcore/MonoGame.Framework/Themes/generic.xbf",
+        "lib/netcore/SharpDX.DXGI.dll",
+        "lib/netcore/SharpDX.Direct2D1.dll",
+        "lib/netcore/SharpDX.Direct3D11.dll",
+        "lib/netcore/SharpDX.MediaFoundation.dll",
+        "lib/netcore/SharpDX.XAudio2.dll",
+        "lib/netcore/SharpDX.dll",
+        "monogame.framework.windowsuniversal.3.6.0.1625.nupkg.sha512",
+        "monogame.framework.windowsuniversal.nuspec",
         "readme.txt"
       ]
     },
@@ -27540,6 +27708,7 @@
     "": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.1.5",
       "MonoGame.Extended >= 1.1.0",
+      "MonoGame.Framework.WindowsUniversal >= 3.6.0.1625",
       "Newtonsoft.Json >= 11.0.2"
     ],
     "UAP,Version=v10.0.10240": []
@@ -27568,6 +27737,7 @@
     "dependencies": {
       "Microsoft.NETCore.UniversalWindowsPlatform": "[6.1.5, )",
       "MonoGame.Extended": "[1.1.0, )",
+      "MonoGame.Framework.WindowsUniversal": "[3.6.0.1625, )",
       "Newtonsoft.Json": "[11.0.2, )"
     },
     "frameworks": {
