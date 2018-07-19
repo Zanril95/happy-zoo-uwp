@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-JLRS51J</Machine>
+    <WindowsUser>jeroe</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>43371b35-84ac-418a-94fe-8d125288fd5a</PackageIdentityName>
+    <PackageIdentityPublisher>CN=jeroe</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\obj\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>14DE8ED147908BB34373E1EAB2B1CC94F26252BC7B55A87AE5D1AC07CF6642B8</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>43371b35-84ac-418a-94fe-8d125288fd5a_1.0.0.0_x64__cvypqx7m91y3e</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>43371b35-84ac-418a-94fe-8d125288fd5a_cvypqx7m91y3e!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>43371b35-84ac-418a-94fe-8d125288fd5a</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=jeroe</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-07-18T15:07:41.454</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2018-07-18T15:06:24.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2017-03-01T07:12:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-01T07:12:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <Modified>2017-03-01T07:12:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <Modified>2017-03-01T07:12:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <Modified>2017-03-01T07:12:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-01T07:12:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <Modified>2017-03-01T07:12:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>bin\WindowsUniversal\x86\Debug\AppX\Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2018-07-18T14:02:44.239</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\SplashScreen.scale-200.png">
+      <PackagePath>bin\WindowsUniversal\x86\Debug\AppX\Assets\SplashScreen.scale-200.png</PackagePath>
+      <Modified>2018-07-18T14:02:44.240</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>bin\WindowsUniversal\x86\Debug\AppX\Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <Modified>2018-07-18T14:02:44.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>bin\WindowsUniversal\x86\Debug\AppX\Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <Modified>2018-07-18T14:02:44.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>bin\WindowsUniversal\x86\Debug\AppX\Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <Modified>2018-07-18T14:02:44.242</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\StoreLogo.png">
+      <PackagePath>bin\WindowsUniversal\x86\Debug\AppX\Assets\StoreLogo.png</PackagePath>
+      <Modified>2018-07-18T14:02:44.243</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>bin\WindowsUniversal\x86\Debug\AppX\Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <Modified>2018-07-18T14:02:44.243</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2016-06-13T19:46:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\Controls\BLOKLETTERS-VILTSTIFT.TTF">
+      <PackagePath>Controls\BLOKLETTERS-VILTSTIFT.TTF</PackagePath>
+      <Modified>2018-07-18T14:02:43.820</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\GamePage.xbf">
+      <PackagePath>GamePage.xbf</PackagePath>
+      <Modified>2018-07-18T15:06:24.871</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\Happy-Zoo.dll">
+      <PackagePath>Happy-Zoo.dll</PackagePath>
+      <Modified>2018-07-18T15:07:40.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\Happy-Zoo.exe">
+      <PackagePath>Happy-Zoo.exe</PackagePath>
+      <Modified>2018-07-18T15:07:41.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\Happy-Zoo.pdb">
+      <PackagePath>Happy-Zoo.pdb</PackagePath>
+      <Modified>2018-07-18T15:07:41.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-07-18T15:06:27.491</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\_Resources\0.rsrc">
+      <PackagePath>_Resources\0.rsrc</PackagePath>
+      <Modified>2018-07-18T15:07:00.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\_Resources\1.rsrc">
+      <PackagePath>_Resources\1.rsrc</PackagePath>
+      <Modified>2018-07-18T15:07:00.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\_Resources\2.rsrc">
+      <PackagePath>_Resources\2.rsrc</PackagePath>
+      <Modified>2018-07-18T15:07:00.423</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\_Resources\3.rsrc">
+      <PackagePath>_Resources\3.rsrc</PackagePath>
+      <Modified>2018-07-18T15:07:00.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\_Resources\4.rsrc">
+      <PackagePath>_Resources\4.rsrc</PackagePath>
+      <Modified>2018-07-18T15:07:00.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\_Resources\5.rsrc">
+      <PackagePath>_Resources\5.rsrc</PackagePath>
+      <Modified>2018-07-18T15:07:00.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x64\Release\ilc\_Resources\index.txt">
+      <PackagePath>_Resources\index.txt</PackagePath>
+      <Modified>2018-07-18T15:07:00.460</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\jeroe\.nuget\packages\microsoft.net.native.sharedlibrary-x86\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+      <Name>Microsoft.NET.Native.Framework.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\jeroe\.nuget\packages\microsoft.net.native.sharedlibrary-x86\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\jeroe\.nuget\packages\microsoft.net.native.sharedlibrary-x64\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+      <Name>Microsoft.NET.Native.Framework.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\jeroe\.nuget\packages\microsoft.net.native.sharedlibrary-x64\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\jeroe\.nuget\packages\microsoft.net.native.sharedlibrary-arm\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+      <Name>Microsoft.NET.Native.Framework.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\jeroe\.nuget\packages\microsoft.net.native.sharedlibrary-arm\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\jeroe\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.7.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\jeroe\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\jeroe\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.7.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\jeroe\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\jeroe\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.7.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\jeroe\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

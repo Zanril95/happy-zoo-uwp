@@ -1,0 +1,11 @@
+C:\Users\jeroe\Desktop\C#2 Herkansing\Game1\Game1\obj\x64\Debug\Game1.csprojAssemblyReference.cache
+C:\Users\jeroe\Desktop\C#2 Herkansing\Game1\Game1\obj\x64\Debug\App.g.i.cs
+C:\Users\jeroe\Desktop\C#2 Herkansing\Game1\Game1\obj\x64\Debug\App.g.cs
+C:\Users\jeroe\Desktop\C#2 Herkansing\Game1\Game1\obj\x64\Debug\GamePage.g.i.cs
+C:\Users\jeroe\Desktop\C#2 Herkansing\Game1\Game1\obj\x64\Debug\GamePage.g.cs
+C:\Users\jeroe\Desktop\C#2 Herkansing\Game1\Game1\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\jeroe\Desktop\C#2 Herkansing\Game1\Game1\obj\x64\Debug\App.xaml
+C:\Users\jeroe\Desktop\C#2 Herkansing\Game1\Game1\obj\x64\Debug\GamePage.xaml
+C:\Users\jeroe\Desktop\C#2 Herkansing\Game1\Game1\obj\x64\Debug\App.xbf
+C:\Users\jeroe\Desktop\C#2 Herkansing\Game1\Game1\obj\x64\Debug\GamePage.xbf
+C:\Users\jeroe\Desktop\C#2 Herkansing\Game1\Game1\obj\x64\Debug\XamlSaveStateFile.xml
