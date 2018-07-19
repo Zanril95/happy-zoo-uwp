@@ -240,7 +240,7 @@ namespace Happy_Zoo
             {
                 price = 1000;
                 maxlvl1 = 1;
-                maxlvl2 = 4;
+                maxlvl2 = 1;
                 animalRep = 8;
                 animalPrice = 200;
                 upgrlvl1 = 2000;
