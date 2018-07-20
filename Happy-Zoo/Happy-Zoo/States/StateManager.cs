@@ -38,7 +38,6 @@ namespace Happy_Zoo.States
             StateManager.graphicsDevice = graphicsDevice;
             StateManager.content = content;
          
-            StateManager.gameS = new GameState(game, graphicsDevice, content);
             StateManager.menuS = new MenuState(game, graphicsDevice, content);
             StateManager.pauseMenuS = new PauseMenuState(game, graphicsDevice, content);
             StateManager.settingsS = new Settings(game, graphicsDevice, content);
@@ -49,6 +48,7 @@ namespace Happy_Zoo.States
         // show the game
         public static void showGame()
         {
+            StateManager.gameS = new GameState(game, graphicsDevice, content);
             game.ChangeState(gameS);
             updateLastCurrent(gameS);
         }
