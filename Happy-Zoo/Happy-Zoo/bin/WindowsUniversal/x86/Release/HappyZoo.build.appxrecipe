@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-JLRS51J</Machine>
-    <WindowsUser>jeroe</WindowsUser>
+    <Machine>LAPTOP-ROBIN</Machine>
+    <WindowsUser>Robin</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,369 +10,369 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>43371b35-84ac-418a-94fe-8d125288fd5a</PackageIdentityName>
     <PackageIdentityPublisher>CN=jeroe</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\obj\x86\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\obj\x86\Release\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>bin\WindowsUniversal\x86\Debug\AppX\Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\SplashScreen.scale-200.png">
       <PackagePath>bin\WindowsUniversal\x86\Debug\AppX\Assets\SplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>bin\WindowsUniversal\x86\Debug\AppX\Assets\Square150x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>bin\WindowsUniversal\x86\Debug\AppX\Assets\Square44x44Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>bin\WindowsUniversal\x86\Debug\AppX\Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\StoreLogo.png">
       <PackagePath>bin\WindowsUniversal\x86\Debug\AppX\Assets\StoreLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\bin\WindowsUniversal\x86\Debug\AppX\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>bin\WindowsUniversal\x86\Debug\AppX\Assets\Wide310x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\clrcompression.dll">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\BackButton.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\BackButton.xnb">
       <PackagePath>Content\Controls\BackButton.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\button.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\button.xnb">
       <PackagePath>Content\Controls\button.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\FullscreenButton.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\FullscreenButton.xnb">
       <PackagePath>Content\Controls\FullscreenButton.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\giraffeText.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\giraffeText.xnb">
       <PackagePath>Content\Controls\giraffeText.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\GiraffeVierkant.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\GiraffeVierkant.xnb">
       <PackagePath>Content\Controls\GiraffeVierkant.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\knopgeld.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\knopgeld.xnb">
       <PackagePath>Content\Controls\knopgeld.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\knopGirraffe.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\knopGirraffe.xnb">
       <PackagePath>Content\Controls\knopGirraffe.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\knopPanter.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\knopPanter.xnb">
       <PackagePath>Content\Controls\knopPanter.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\knopZebra.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\knopZebra.xnb">
       <PackagePath>Content\Controls\knopZebra.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\MuteButton.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\MuteButton.xnb">
       <PackagePath>Content\Controls\MuteButton.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\panterText.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\panterText.xnb">
       <PackagePath>Content\Controls\panterText.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\PanterVierkant.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\PanterVierkant.xnb">
       <PackagePath>Content\Controls\PanterVierkant.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\PlayButton.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\PlayButton.xnb">
       <PackagePath>Content\Controls\PlayButton.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\slider.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\slider.xnb">
       <PackagePath>Content\Controls\slider.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\Volume.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\Volume.xnb">
       <PackagePath>Content\Controls\Volume.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\zebraText.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\zebraText.xnb">
       <PackagePath>Content\Controls\zebraText.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\ZebraVierkant.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Controls\ZebraVierkant.xnb">
       <PackagePath>Content\Controls\ZebraVierkant.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Fonts\blokletters.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Fonts\blokletters.xnb">
       <PackagePath>Content\Fonts\blokletters.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Fonts\bloklettersextraklein.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Fonts\bloklettersextraklein.xnb">
       <PackagePath>Content\Fonts\bloklettersextraklein.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Fonts\bloklettersklein.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Fonts\bloklettersklein.xnb">
       <PackagePath>Content\Fonts\bloklettersklein.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Fonts\default.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Fonts\default.xnb">
       <PackagePath>Content\Fonts\default.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Fonts\verdana.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Fonts\verdana.xnb">
       <PackagePath>Content\Fonts\verdana.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\coarse.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\coarse.xnb">
       <PackagePath>Content\Images\coarse.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\dierenKnop.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\dierenKnop.xnb">
       <PackagePath>Content\Images\dierenKnop.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\faciliteitenKnop.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\faciliteitenKnop.xnb">
       <PackagePath>Content\Images\faciliteitenKnop.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\faciliteiten\eetendrankKraam.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\faciliteiten\eetendrankKraam.xnb">
       <PackagePath>Content\Images\faciliteiten\eetendrankKraam.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\faciliteiten\eetendrankKraam2.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\faciliteiten\eetendrankKraam2.xnb">
       <PackagePath>Content\Images\faciliteiten\eetendrankKraam2.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\faciliteiten\Info1.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\faciliteiten\Info1.xnb">
       <PackagePath>Content\Images\faciliteiten\Info1.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\faciliteiten\Info2.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\faciliteiten\Info2.xnb">
       <PackagePath>Content\Images\faciliteiten\Info2.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\faciliteiten\ToiletBuilding.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\faciliteiten\ToiletBuilding.xnb">
       <PackagePath>Content\Images\faciliteiten\ToiletBuilding.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\faciliteiten\ToiletBuilding2.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\faciliteiten\ToiletBuilding2.xnb">
       <PackagePath>Content\Images\faciliteiten\ToiletBuilding2.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\grass1.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\grass1.xnb">
       <PackagePath>Content\Images\grass1.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\grass2.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\grass2.xnb">
       <PackagePath>Content\Images\grass2.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\GrassTile.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\GrassTile.xnb">
       <PackagePath>Content\Images\GrassTile.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\flamingoLevel1.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\flamingoLevel1.xnb">
       <PackagePath>Content\Images\kooien\flamingoLevel1.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\flamingoLevel2.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\flamingoLevel2.xnb">
       <PackagePath>Content\Images\kooien\flamingoLevel2.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\flamingoLevel3.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\flamingoLevel3.xnb">
       <PackagePath>Content\Images\kooien\flamingoLevel3.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\girafLevel1.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\girafLevel1.xnb">
       <PackagePath>Content\Images\kooien\girafLevel1.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\girafLevel2.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\girafLevel2.xnb">
       <PackagePath>Content\Images\kooien\girafLevel2.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\girafLevel3.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\girafLevel3.xnb">
       <PackagePath>Content\Images\kooien\girafLevel3.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\gorillaLevel1.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\gorillaLevel1.xnb">
       <PackagePath>Content\Images\kooien\gorillaLevel1.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\gorillaLevel2.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\gorillaLevel2.xnb">
       <PackagePath>Content\Images\kooien\gorillaLevel2.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\gorillaLevel3.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\gorillaLevel3.xnb">
       <PackagePath>Content\Images\kooien\gorillaLevel3.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\kangaroeLevel1.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\kangaroeLevel1.xnb">
       <PackagePath>Content\Images\kooien\kangaroeLevel1.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\kangaroeLevel2.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\kangaroeLevel2.xnb">
       <PackagePath>Content\Images\kooien\kangaroeLevel2.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\kangaroeLevel3.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\kangaroeLevel3.xnb">
       <PackagePath>Content\Images\kooien\kangaroeLevel3.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\leeuwLevel1.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\leeuwLevel1.xnb">
       <PackagePath>Content\Images\kooien\leeuwLevel1.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\leeuwLevel2.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\leeuwLevel2.xnb">
       <PackagePath>Content\Images\kooien\leeuwLevel2.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\leeuwLevel3.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\leeuwLevel3.xnb">
       <PackagePath>Content\Images\kooien\leeuwLevel3.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\olifantLevel1.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\olifantLevel1.xnb">
       <PackagePath>Content\Images\kooien\olifantLevel1.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\olifantLevel2.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\olifantLevel2.xnb">
       <PackagePath>Content\Images\kooien\olifantLevel2.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\olifantLevel3.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\olifantLevel3.xnb">
       <PackagePath>Content\Images\kooien\olifantLevel3.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\PandaLevel1.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\PandaLevel1.xnb">
       <PackagePath>Content\Images\kooien\PandaLevel1.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\PandaLevel2.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\PandaLevel2.xnb">
       <PackagePath>Content\Images\kooien\PandaLevel2.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\PandaLevel3.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\kooien\PandaLevel3.xnb">
       <PackagePath>Content\Images\kooien\PandaLevel3.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\logo-klein.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\logo-klein.xnb">
       <PackagePath>Content\Images\logo-klein.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\logo.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\logo.xnb">
       <PackagePath>Content\Images\logo.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\newgamebg.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\newgamebg.xnb">
       <PackagePath>Content\Images\newgamebg.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\nhlstenden.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\nhlstenden.xnb">
       <PackagePath>Content\Images\nhlstenden.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\pausedbg.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\pausedbg.xnb">
       <PackagePath>Content\Images\pausedbg.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\rand.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\rand.xnb">
       <PackagePath>Content\Images\rand.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\settingsbg.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\settingsbg.xnb">
       <PackagePath>Content\Images\settingsbg.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\splashscreen-geenlaadbalk-resized.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\splashscreen-geenlaadbalk-resized.xnb">
       <PackagePath>Content\Images\splashscreen-geenlaadbalk-resized.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\splashscreen-geenlaadbalk.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\splashscreen-geenlaadbalk.xnb">
       <PackagePath>Content\Images\splashscreen-geenlaadbalk.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\tile.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\tile.xnb">
       <PackagePath>Content\Images\tile.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\UI\popoutmenu.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\UI\popoutmenu.xnb">
       <PackagePath>Content\Images\UI\popoutmenu.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\UI\popupmenu.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\UI\popupmenu.xnb">
       <PackagePath>Content\Images\UI\popupmenu.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\verblijvenKnop.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Images\verblijvenKnop.xnb">
       <PackagePath>Content\Images\verblijvenKnop.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Music\Pixel-Puppies.wma">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Music\Pixel-Puppies.wma">
       <PackagePath>Content\Music\Pixel-Puppies.wma</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Music\Pixel-Puppies.xnb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Content\Music\Pixel-Puppies.xnb">
       <PackagePath>Content\Music\Pixel-Puppies.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Controls\BLOKLETTERS-VILTSTIFT.TTF">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Controls\BLOKLETTERS-VILTSTIFT.TTF">
       <PackagePath>Controls\BLOKLETTERS-VILTSTIFT.TTF</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\GamePage.xbf">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\GamePage.xbf">
       <PackagePath>GamePage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Happy-Zoo.dll">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Happy-Zoo.dll">
       <PackagePath>Happy-Zoo.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Happy-Zoo.exe">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Happy-Zoo.exe">
       <PackagePath>Happy-Zoo.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Happy-Zoo.pdb">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\Happy-Zoo.pdb">
       <PackagePath>Happy-Zoo.pdb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\_Resources\0.rsrc">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\_Resources\0.rsrc">
       <PackagePath>_Resources\0.rsrc</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\_Resources\1.rsrc">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\_Resources\1.rsrc">
       <PackagePath>_Resources\1.rsrc</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\_Resources\2.rsrc">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\_Resources\2.rsrc">
       <PackagePath>_Resources\2.rsrc</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\_Resources\3.rsrc">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\_Resources\3.rsrc">
       <PackagePath>_Resources\3.rsrc</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\_Resources\4.rsrc">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\_Resources\4.rsrc">
       <PackagePath>_Resources\4.rsrc</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\_Resources\5.rsrc">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\_Resources\5.rsrc">
       <PackagePath>_Resources\5.rsrc</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\_Resources\index.txt">
+    <AppxPackagedFile Include="C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\bin\WindowsUniversal\x86\Release\ilc\_Resources\index.txt">
       <PackagePath>_Resources\index.txt</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\jeroe\.nuget\packages\microsoft.net.native.sharedlibrary-x86\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+    <ResolvedSDKReference Include="C:\Users\Robin\.nuget\packages\microsoft.net.native.sharedlibrary-x86\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
       <Name>Microsoft.NET.Native.Framework.1.7</Name>
       <Version>1.7.25531.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\jeroe\.nuget\packages\microsoft.net.native.sharedlibrary-x86\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <AppxLocation>C:\Users\Robin\.nuget\packages\microsoft.net.native.sharedlibrary-x86\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\jeroe\.nuget\packages\microsoft.net.native.sharedlibrary-x64\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+    <ResolvedSDKReference Include="C:\Users\Robin\.nuget\packages\microsoft.net.native.sharedlibrary-x64\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
       <Name>Microsoft.NET.Native.Framework.1.7</Name>
       <Version>1.7.25531.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\jeroe\.nuget\packages\microsoft.net.native.sharedlibrary-x64\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <AppxLocation>C:\Users\Robin\.nuget\packages\microsoft.net.native.sharedlibrary-x64\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\jeroe\.nuget\packages\microsoft.net.native.sharedlibrary-arm\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+    <ResolvedSDKReference Include="C:\Users\Robin\.nuget\packages\microsoft.net.native.sharedlibrary-arm\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
       <Name>Microsoft.NET.Native.Framework.1.7</Name>
       <Version>1.7.25531.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\jeroe\.nuget\packages\microsoft.net.native.sharedlibrary-arm\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <AppxLocation>C:\Users\Robin\.nuget\packages\microsoft.net.native.sharedlibrary-arm\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\jeroe\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.7.appx">
+    <ResolvedSDKReference Include="C:\Users\Robin\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.7.appx">
       <Name>Microsoft.NET.Native.Runtime.1.7</Name>
       <Version>1.7.25531.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\jeroe\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <AppxLocation>C:\Users\Robin\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\jeroe\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.7.appx">
+    <ResolvedSDKReference Include="C:\Users\Robin\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.7.appx">
       <Name>Microsoft.NET.Native.Runtime.1.7</Name>
       <Version>1.7.25531.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\jeroe\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <AppxLocation>C:\Users\Robin\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\jeroe\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.7.appx">
+    <ResolvedSDKReference Include="C:\Users\Robin\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.7.appx">
       <Name>Microsoft.NET.Native.Runtime.1.7</Name>
       <Version>1.7.25531.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\jeroe\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <AppxLocation>C:\Users\Robin\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">

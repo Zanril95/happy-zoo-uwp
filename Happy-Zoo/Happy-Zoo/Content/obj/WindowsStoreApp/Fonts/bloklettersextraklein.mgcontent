@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/jeroe/Documents/happy-zoo-uwp/Happy-Zoo/Happy-Zoo/Content/Fonts/bloklettersextraklein.spritefont</SourceFile>
-  <SourceTime>2018-07-18T16:02:43.6373747+02:00</SourceTime>
-  <DestFile>C:/Users/jeroe/Documents/happy-zoo-uwp/Happy-Zoo/Happy-Zoo/Content/bin/WindowsStoreApp/Fonts/bloklettersextraklein.xnb</DestFile>
-  <DestTime>2018-07-19T15:44:16.0976434+02:00</DestTime>
+  <SourceFile>C:/Users/Robin/Desktop/blalbalbla/Happy-Zoo/Happy-Zoo/Content/Fonts/bloklettersextraklein.spritefont</SourceFile>
+  <SourceTime>2018-07-19T15:35:57.8432427+02:00</SourceTime>
+  <DestFile>C:/Users/Robin/Desktop/blalbalbla/Happy-Zoo/Happy-Zoo/Content/bin/WindowsStoreApp/Fonts/bloklettersextraklein.xnb</DestFile>
+  <DestTime>2018-07-30T15:26:29.1103882+02:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>

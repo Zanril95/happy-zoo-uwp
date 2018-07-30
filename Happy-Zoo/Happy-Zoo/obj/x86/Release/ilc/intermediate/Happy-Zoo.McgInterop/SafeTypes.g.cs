@@ -8863,6 +8863,58 @@ namespace Windows.UI.ViewManagement
 			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 		}
 
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "PreferredLaunchWindowingMode")]
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static void put_PreferredLaunchWindowingMode(global::Windows.UI.ViewManagement.ApplicationViewWindowingMode value)
+		{
+			__Factory_Windows_UI_ViewManagement__IApplicationViewStatics3_put_PreferredLaunchWindowingMode(
+								"Windows.UI.ViewManagement.ApplicationView", 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		static void __Factory_Windows_UI_ViewManagement__IApplicationViewStatics3_put_PreferredLaunchWindowingMode(
+					string typeName, 
+					global::Windows.UI.ViewManagement.ApplicationViewWindowingMode value)
+		{
+			global::Windows.UI.ViewManagement.IApplicationViewStatics3__Impl.Stubs.put_PreferredLaunchWindowingMode(
+								global::System.Runtime.InteropServices.McgMarshal.GetActivationFactory(
+													typeName, 
+													typeof(global::Windows.UI.ViewManagement.IApplicationViewStatics3).TypeHandle
+												), 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "PreferredLaunchViewSize")]
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static void put_PreferredLaunchViewSize(global::Windows.Foundation.Size value)
+		{
+			__Factory_Windows_UI_ViewManagement__IApplicationViewStatics3_put_PreferredLaunchViewSize(
+								"Windows.UI.ViewManagement.ApplicationView", 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		static void __Factory_Windows_UI_ViewManagement__IApplicationViewStatics3_put_PreferredLaunchViewSize(
+					string typeName, 
+					global::Windows.Foundation.Size value)
+		{
+			global::Windows.UI.ViewManagement.IApplicationViewStatics3__Impl.Stubs.put_PreferredLaunchViewSize(
+								global::System.Runtime.InteropServices.McgMarshal.GetActivationFactory(
+													typeName, 
+													typeof(global::Windows.UI.ViewManagement.IApplicationViewStatics3).TypeHandle
+												), 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 		public static global::Windows.UI.ViewManagement.ApplicationView GetForCurrentView()
 		{
@@ -8937,6 +8989,19 @@ namespace Windows.UI.ViewManagement
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IApplicationViewStatics3
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "PreferredLaunchWindowingMode")]
+		void put_PreferredLaunchWindowingMode(global::Windows.UI.ViewManagement.ApplicationViewWindowingMode value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "PreferredLaunchViewSize")]
+		void put_PreferredLaunchViewSize(global::Windows.Foundation.Size value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IApplicationView
 	{
 	}
@@ -8972,6 +9037,16 @@ namespace Windows.UI.ViewManagement
 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 		void SetPreferredMinSize(global::Windows.Foundation.Size minSize);
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum ApplicationViewWindowingMode
+	{
+		Auto = 0,
+		PreferredLaunchViewSize = 1,
+		FullScreen = 2,
 	}
 
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
@@ -14840,6 +14915,13 @@ namespace Windows.UI.Xaml
 			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 		}
 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public virtual void Start()
+		{
+			global::Windows.UI.Xaml.IDispatcherTimer__Impl.Stubs.Start(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
 		public DispatcherTimer(global::System.IntPtr dummy)
 		{
 		}
@@ -16771,6 +16853,9 @@ namespace Windows.UI.Xaml
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Tick")]
 		void remove_Tick(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Start();
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]

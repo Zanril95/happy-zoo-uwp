@@ -2,13 +2,19 @@
 using Mcg.System;
 using System;
 using System.Collections.Generic;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.WindowsRuntime;
 
 [assembly: global::System.Runtime.InteropServices.McgGeneratedAssembly]
 [assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("System.Runtime.WindowsRuntime")]
+[assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("SharpDX")]
 [assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("System.Text.Encoding.CodePages")]
+[assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("SharpDX.Direct2D1")]
+[assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("SharpDX.DXGI")]
+[assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("SharpDX.MediaFoundation")]
+[assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("SharpDX.XAudio2")]
 
 
 // -----------------------------------------------------------------------------------------------------------

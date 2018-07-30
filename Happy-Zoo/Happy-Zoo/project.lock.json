@@ -27714,19 +27714,19 @@
     "UAP,Version=v10.0.10240": []
   },
   "packageFolders": {
-    "C:\\Users\\jeroe\\.nuget\\packages\\": {}
+    "C:\\Users\\Robin\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\jeroe\\Documents\\happy-zoo-uwp\\Happy-Zoo\\Happy-Zoo\\HappyZoo.csproj",
+      "projectUniqueName": "C:\\Users\\Robin\\Desktop\\blalbalbla\\Happy-Zoo\\Happy-Zoo\\HappyZoo.csproj",
       "projectName": "HappyZoo",
-      "projectPath": "C:\\Users\\jeroe\\Documents\\happy-zoo-uwp\\Happy-Zoo\\Happy-Zoo\\HappyZoo.csproj",
-      "projectJsonPath": "C:\\Users\\jeroe\\Documents\\happy-zoo-uwp\\Happy-Zoo\\Happy-Zoo\\project.json",
-      "packagesPath": "C:\\Users\\jeroe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jeroe\\Documents\\happy-zoo-uwp\\Happy-Zoo\\Happy-Zoo\\obj\\",
+      "projectPath": "C:\\Users\\Robin\\Desktop\\blalbalbla\\Happy-Zoo\\Happy-Zoo\\HappyZoo.csproj",
+      "projectJsonPath": "C:\\Users\\Robin\\Desktop\\blalbalbla\\Happy-Zoo\\Happy-Zoo\\project.json",
+      "packagesPath": "C:\\Users\\Robin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Robin\\Desktop\\blalbalbla\\Happy-Zoo\\Happy-Zoo\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
-        "C:\\Users\\jeroe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Robin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "sources": {

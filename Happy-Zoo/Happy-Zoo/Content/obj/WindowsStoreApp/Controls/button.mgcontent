@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/jeroe/Documents/happy-zoo-uwp/Happy-Zoo/Happy-Zoo/Content/Controls/button.png</SourceFile>
-  <SourceTime>2018-07-18T16:02:43.6214426+02:00</SourceTime>
-  <DestFile>C:/Users/jeroe/Documents/happy-zoo-uwp/Happy-Zoo/Happy-Zoo/Content/bin/WindowsStoreApp/Controls/button.xnb</DestFile>
-  <DestTime>2018-07-19T15:44:08.0151134+02:00</DestTime>
+  <SourceFile>C:/Users/Robin/Desktop/blalbalbla/Happy-Zoo/Happy-Zoo/Content/Controls/button.png</SourceFile>
+  <SourceTime>2018-07-19T15:35:57.8263747+02:00</SourceTime>
+  <DestFile>C:/Users/Robin/Desktop/blalbalbla/Happy-Zoo/Happy-Zoo/Content/bin/WindowsStoreApp/Controls/button.xnb</DestFile>
+  <DestTime>2018-07-30T15:26:22.9396958+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

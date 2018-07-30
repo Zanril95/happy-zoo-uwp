@@ -1,7 +1,7 @@
-/In:"C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\obj\x86\Release\ilc\in"
-/Lib:"C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\obj\x86\Release\ilc\in"
-/Lib:"C:\Users\jeroe\.nuget\packages\microsoft.net.native.compiler\1.7.3\tools\x86\ilc\lib\Private"
-/WinMD:"C:\Users\jeroe\Documents\happy-zoo-uwp\Happy-Zoo\Happy-Zoo\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd"
-/VSTelemetrySessionSettings:"{"AppId":1001,"AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","HostName":"Dev14","Id":"e3ca1a1d-4c41-40d2-8aef-538c7b3f5160","IsOptedIn":true,"ProcessStartTime":636676035862571794,"UserId":"5c816f95-8324-4eab-8829-ad1de916d19e"}"
-/RdXmlPath:"C:\Users\jeroe\.nuget\packages\microsoft.net.native.compiler\1.7.3\tools\LibraryXML"
+/In:"C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\obj\x86\Release\ilc\in"
+/Lib:"C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\obj\x86\Release\ilc\in"
+/Lib:"C:\Users\Robin\.nuget\packages\microsoft.net.native.compiler\1.7.3\tools\x86\ilc\lib\Private"
+/WinMD:"C:\Users\Robin\Desktop\blalbalbla\Happy-Zoo\Happy-Zoo\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd"
+/VSTelemetrySessionSettings:"{"AppId":1001,"AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","HostName":"Dev14","Id":"4282495b-b510-4a36-b11d-59aaef6f7ccc","IsOptedIn":true,"ProcessStartTime":636685539412217079,"UserId":"29a9382a-4442-49a6-aeeb-85cc35f2d0d3"}"
+/RdXmlPath:"C:\Users\Robin\.nuget\packages\microsoft.net.native.compiler\1.7.3\tools\LibraryXML"
 /RunOnlyPreDR

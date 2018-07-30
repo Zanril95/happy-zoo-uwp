@@ -15,6 +15,12 @@ MonoGame.Extended.dll                                  : 1.0.0.0
 MonoGame.Framework.dll                                 : 3.6.0.1625
 mscorlib.dll                                           : 4.6.24301.0
 Newtonsoft.Json.dll                                    : 11.0.2.21924
+SharpDX.Direct2D1.dll                                  : 3.0.0
+SharpDX.Direct3D11.dll                                 : 3.0.0
+SharpDX.dll                                            : 3.0.0
+SharpDX.DXGI.dll                                       : 3.0.0
+SharpDX.MediaFoundation.dll                            : 3.0.0
+SharpDX.XAudio2.dll                                    : 3.0.0
 System.AppContext.dll                                  : 4.6.24705.01
 System.Buffers.dll                                     : 4.6.24705.01
 System.Collections.Concurrent.dll                      : 4.6.23123.00

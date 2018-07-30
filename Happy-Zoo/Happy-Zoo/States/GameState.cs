@@ -535,7 +535,6 @@ namespace Happy_Zoo.States
             Vector2 textcoord2 = new Vector2(840, 18);
             spriteBatch.DrawString(font, "Visitors: " + park.getVisitorCount(), textcoord2, Color.White);
 
-
             spriteBatch.End();
             #endregion
         }

@@ -19,10 +19,8 @@ namespace Happy_Zoo
             timer1 = new DispatcherTimer();
             timer1.Tick += timer1_Tick;
             timer1.Interval = new TimeSpan(0, 0, 1);
-/*
-            timer1.Elapsed += timerTick;
-            timer1.Interval = seconds * 1000;
-            timer1.Start();*/
+            timer1.Start();
+
         }
 
         //set boolean readyToLeave on true

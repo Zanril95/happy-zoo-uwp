@@ -43,9 +43,9 @@ namespace Happy_Zoo
         //let thread calculate the reputation and the visitorscount
         private void startThread()
         {
-            ThreadPoolTimer PeriodicTimer = ThreadPoolTimer.CreatePeriodicTimer((source) =>
+            ThreadPoolTimer PeriodicTimer = ThreadPoolTimer.CreatePeriodicTimer(async (source) =>
             {
-                Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
+                await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
                 () =>
                 {
                     // Your UI update code goes here!
@@ -185,13 +185,16 @@ namespace Happy_Zoo
             {
                 if (currentBuilding.getName() == name)
                 {
-                    currentBuilding.setPriceUpgrade();
-                    if (currentBuilding.getLevel() < 3)
+                    if (currentBuilding.getCurrentAnimals() == currentBuilding.getMaxAnimals())
                     {
-                        if (decreaseCoins(currentBuilding.getPrice()) == true)
+                        currentBuilding.setPriceUpgrade();
+                        if (currentBuilding.getLevel() < 3)
                         {
-                            currentBuilding.increaseLevel();
-                            return true;
+                            if (decreaseCoins(currentBuilding.getPrice()) == true)
+                            {
+                                currentBuilding.increaseLevel();
+                                return true;
+                            }
                         }
                     }
                 }
@@ -273,6 +276,7 @@ namespace Happy_Zoo
         //calculates the amount of visitors there should be and create them
         private void calculateVisitors()
         {
+           
             // y == visitors per uur        x == entranceFee      z == totalReputation
             // y = 5000 - 3.6 * (x / 10 * 100) * (2 - z * 0.0016)
             double visitorsAHour = 5000 - 3.6 * (entranceFee / 10 * 100) * (2 - totalReputation * 0.16);
