@@ -21,6 +21,19 @@ namespace Happy_Zoo.States
         Texture2D elephant1, flamingo1, giraffe1, gorilla1, lion1, kangaroo1, panda1;
         Texture2D elephant2, flamingo2, giraffe2, gorilla2, lion2, kangaroo2, panda2;
         Texture2D elephant3, flamingo3, giraffe3, gorilla3, lion3, kangaroo3, panda3;
+
+        #region animal in housing sprites
+
+        Texture2D elep0, elep1, elep2, elep3;
+        Texture2D leeuw0, leeuw1, leeuw2, leeuw3, leeuw4;
+        Texture2D flam0, flam1, flam2, flam3, flam4, flam5, flam6;
+        Texture2D gira0, gira1, gira2, gira3, gira4;
+        Texture2D gori0, gori1, gori2, gori3, gori4;
+        Texture2D pand0, pand1, pand2, pand3, pand4;
+        Texture2D kang0, kang1, kang2, kang3, kang4, kang5, kang6;
+
+        #endregion
+
         Texture2D info1, toilet1, eat1;
         SpriteFont font;
         Texture2D rand;
@@ -33,6 +46,7 @@ namespace Happy_Zoo.States
         Dictionary<string, Texture2D> texturesLevel1;
         Dictionary<string, Texture2D> texturesLevel2;
         Dictionary<string, Texture2D> texturesLevel3;
+        Dictionary<string, Texture2D> animalInHousing;
         Dictionary<Vector2, string> buildingPos;
         Dictionary<string, Rectangle> clickableItems;
         bool isReleased, finished;
@@ -75,11 +89,14 @@ namespace Happy_Zoo.States
             texturesLevel1 = new Dictionary<string, Texture2D>();
             texturesLevel2 = new Dictionary<string, Texture2D>();
             texturesLevel3 = new Dictionary<string, Texture2D>();
+            animalInHousing = new Dictionary<string, Texture2D>();
             buildingPos = new Dictionary<Vector2, string>();
             clickableItems = new Dictionary<string, Rectangle>();
             font = _content.Load<SpriteFont>("Fonts/default");
             grass = _content.Load<Texture2D>("Images/GrassTile");
             font = _content.Load<SpriteFont>("Fonts/bloklettersklein");
+            #region sprites
+
             info1 = _content.Load<Texture2D>("Images/faciliteiten/Info1");
             toilet1 = _content.Load<Texture2D>("Images/faciliteiten/ToiletBuilding");
             eat1 = _content.Load<Texture2D>("Images/faciliteiten/eetendrankKraam");
@@ -92,6 +109,8 @@ namespace Happy_Zoo.States
             buttonText = _content.Load<Texture2D>("Controls/giraffeText");
             box = _content.Load<Texture2D>("Images/UI/popoutmenu");
             box2 = _content.Load<Texture2D>("Images/UI/popupmenu");
+
+            #endregion
             itemName = String.Empty;
             #endregion
             #region Level 1 buildings
@@ -127,6 +146,45 @@ namespace Happy_Zoo.States
             panda3 = _content.Load<Texture2D>("Images/kooien/PandaLevel3");
 
             #endregion
+            #region animal in housings
+            elep0 = _content.Load<Texture2D>("Images/kooien/olifantLevel1");
+            elep1 = _content.Load<Texture2D>("Images/dieren_in_kooien/olifant1");
+            elep2 = _content.Load<Texture2D>("Images/dieren_in_kooien/olifant2");
+            elep3 = _content.Load<Texture2D>("Images/dieren_in_kooien/olifant3");
+            leeuw0 = _content.Load<Texture2D>("Images/kooien/olifantLevel1");
+            leeuw1 = _content.Load<Texture2D>("Images/dieren_in_kooien/leeuw1");
+            leeuw2 = _content.Load<Texture2D>("Images/dieren_in_kooien/leeuw2");
+            leeuw3 = _content.Load<Texture2D>("Images/dieren_in_kooien/leeuw3");
+            leeuw4 = _content.Load<Texture2D>("Images/dieren_in_kooien/leeuw4");
+            kang0 = _content.Load<Texture2D>("Images/kooien/olifantLevel1");
+            kang1 = _content.Load<Texture2D>("Images/dieren_in_kooien/kangoeroe1");
+            kang2 = _content.Load<Texture2D>("Images/dieren_in_kooien/kangoeroe2");
+            kang3 = _content.Load<Texture2D>("Images/dieren_in_kooien/kangoeroe3");
+            kang4 = _content.Load<Texture2D>("Images/dieren_in_kooien/kangoeroe4");
+            kang5 = _content.Load<Texture2D>("Images/dieren_in_kooien/kangoeroe5");
+            kang6 = _content.Load<Texture2D>("Images/dieren_in_kooien/kangoeroe6");
+            pand0 = _content.Load<Texture2D>("Images/kooien/olifantLevel1");
+            pand1 = _content.Load<Texture2D>("Images/dieren_in_kooien/panda1");
+            pand2 = _content.Load<Texture2D>("Images/dieren_in_kooien/panda2");
+            pand3 = _content.Load<Texture2D>("Images/dieren_in_kooien/panda3");
+            gira0 = _content.Load<Texture2D>("Images/kooien/girafLevel1");
+            gira1 = _content.Load<Texture2D>("Images/dieren_in_kooien/giraffe1");
+            gira2 = _content.Load<Texture2D>("Images/dieren_in_kooien/giraffe2");
+            gira3 = _content.Load<Texture2D>("Images/dieren_in_kooien/giraffe3");
+            gira4 = _content.Load<Texture2D>("Images/dieren_in_kooien/giraffe4");
+            flam0 = _content.Load<Texture2D>("Images/kooien/flamingoLevel1");
+            flam1 = _content.Load<Texture2D>("Images/dieren_in_kooien/flamingo1");
+            flam2 = _content.Load<Texture2D>("Images/dieren_in_kooien/flamingo2");
+            flam3 = _content.Load<Texture2D>("Images/dieren_in_kooien/flamingo3");
+            flam4 = _content.Load<Texture2D>("Images/dieren_in_kooien/flamingo4");
+            flam5 = _content.Load<Texture2D>("Images/dieren_in_kooien/flamingo5");
+            flam6 = _content.Load<Texture2D>("Images/dieren_in_kooien/flamingo6");
+            gori0 = _content.Load<Texture2D>("Images/kooien/gorillaLevel1");
+            gori1 = _content.Load<Texture2D>("Images/dieren_in_kooien/gorilla1");
+            gori2 = _content.Load<Texture2D>("Images/dieren_in_kooien/gorilla2");
+            gori3 = _content.Load<Texture2D>("Images/dieren_in_kooien/gorilla3");
+            gori4 = _content.Load<Texture2D>("Images/dieren_in_kooien/gorilla4");
+            #endregion
 
             // add building textures to a list for comparison
             #region Textures Level 1
@@ -160,6 +218,48 @@ namespace Happy_Zoo.States
             texturesLevel3.Add("Kangaroo", kangaroo3);
             texturesLevel3.Add("Panda", panda3);
             texturesLevel3.Add("Lion", lion3);
+            #endregion
+
+            #region animals+level sprites
+
+            animalInHousing.Add("elep0", elep0);
+            animalInHousing.Add("elep1",elep1);
+            animalInHousing.Add("elep2",elep2);
+            animalInHousing.Add("elep3",elep3);
+            animalInHousing.Add("leeuw0",leeuw0);
+            animalInHousing.Add("leeuw1",leeuw1);
+            animalInHousing.Add("leeuw2",leeuw2);
+            animalInHousing.Add("leeuw3",leeuw3);
+            animalInHousing.Add("leeuw4",leeuw4);
+            animalInHousing.Add("kang0",kang0);
+            animalInHousing.Add("kang1",kang1);
+            animalInHousing.Add("kang2",kang2);
+            animalInHousing.Add("kang3",kang3);
+            animalInHousing.Add("kang4",kang4);
+            animalInHousing.Add("kang5",kang5);
+            animalInHousing.Add("kang6",kang6);
+            animalInHousing.Add("pand0",pand0);
+            animalInHousing.Add("pand1",pand1);
+            animalInHousing.Add("pand2",pand2);
+            animalInHousing.Add("pand3",pand3);
+            animalInHousing.Add("gira0",gira0);
+            animalInHousing.Add("gira1",gira1);
+            animalInHousing.Add("gira2",gira2);
+            animalInHousing.Add("gira3",gira3);
+            animalInHousing.Add("gira4",gira4);
+            animalInHousing.Add("flam0",flam0);
+            animalInHousing.Add("flam1",flam1);
+            animalInHousing.Add("flam2",flam2);
+            animalInHousing.Add("flam3",flam3);
+            animalInHousing.Add("flam4",flam4);
+            animalInHousing.Add("flam5",flam5);
+            animalInHousing.Add("flam6",flam6);
+            animalInHousing.Add("gori0",gori0);
+            animalInHousing.Add("gori1",gori1);
+            animalInHousing.Add("gori2",gori2);
+            animalInHousing.Add("gori3",gori3);
+            animalInHousing.Add("gori4",gori4);
+
             #endregion
 
             park = new Park();
@@ -535,6 +635,7 @@ namespace Happy_Zoo.States
             Vector2 textcoord2 = new Vector2(840, 18);
             spriteBatch.DrawString(font, "Visitors: " + park.getVisitorCount(), textcoord2, Color.White);
 
+
             spriteBatch.End();
             #endregion
         }
@@ -585,6 +686,28 @@ namespace Happy_Zoo.States
                             //clickableItems.Add(item.Key, new Rectangle((int)building.Key.X, (int)building.Key.Y, item.Value.Width / 4, item.Value.Height / 4));
                             clickable = new Rectangle((int)building.Key.X, (int)building.Key.Y, item.Value.Width / 4, item.Value.Height / 4);
                         }
+                    }
+                }
+            }
+        }
+
+        private void DrawBuildingsToAnimals(SpriteBatch spriteBatch) {
+
+            // loop through each building purchased
+            foreach (var building in buildingPos)
+            {
+                Animalhouse currentAnimalHouse = park.selectAnimalHouse(building.Value);
+                int currentAnimalHouseAnimals = currentAnimalHouse.getCurrentAnimals();
+
+                // Loop through textures in texturelist
+                foreach (var item in texturesLevel1)
+                {
+                    // Compare values for the right texture
+                    if (building.Value == item.Key)
+                    {
+                        spriteBatch.Draw(item.Value, new Rectangle((int)building.Key.X, (int)building.Key.Y, item.Value.Width / 4, item.Value.Height / 4), Color.White);
+                        //clickableItems.Add(item.Key, new Rectangle((int)building.Key.X, (int)building.Key.Y, item.Value.Width / 4, item.Value.Height / 4));
+                        clickable = new Rectangle((int)building.Key.X, (int)building.Key.Y, item.Value.Width / 4, item.Value.Height / 4);
                     }
                 }
             }
